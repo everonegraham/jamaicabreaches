@@ -4,8 +4,8 @@ export default function Table(props) {
     return (
         
             <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
-                <table className="w-full text-m text-center text-gray-500 dark:text-gray-400">
-                    <thead className="text-lg text-white uppercase bg-blue-500 dark:bg-gray-700 dark:text-gray-400">
+                <table className="w-full text-m text-center text-gray-500">
+                    <thead className="text-lg text-white uppercase bg-blue-500">
                         <tr>
                             <th scope="col" className="px-6 py-3">
                                 Target
@@ -27,7 +27,7 @@ export default function Table(props) {
                     <tbody>
                         {props?.[0].frontmatterData?.map((row, index) => {
                             return (
-                                <tr key={index} className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                                <tr key={index} className="bg-white border-b hover:bg-gray-50">
                                     <td className="px-6 py-4">
                                         { row.name }
                                     </td>

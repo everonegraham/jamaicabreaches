@@ -7,16 +7,16 @@ export default function Contact() {
   return (
     <div className="text-black bg-black">
       <NextSeo
-        title="404: nine4"
+        title="404: Jamaica Breaches"
         description="404 page for all our missing pages"
-        canonical="https://nine4-3.vercel.app/404"
+        canonical="https://jamaicabreaches.com/404"
         openGraph={{
-          url: "https://nine4-3.vercel.app/404",
+          url: "https://jamaicabreaches.com/404",
         }}
       />
       <Head>
-        <title>nine4</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Jamaica Breaches</title>
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <Header />
       <div className="flex flex-col justify-center mx-auto mt-52 text-center max-w-2x1">
