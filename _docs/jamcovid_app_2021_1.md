@@ -2,7 +2,7 @@
 name: JamCovid App
 year: 2021
 type: Exposed Data
-records: ~ 425,000
+records: ~425,000
 source: https://techcrunch.com/2021/02/17/jamaica-immigration-travelers-data-exposed
 ---
 
