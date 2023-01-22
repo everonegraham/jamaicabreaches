@@ -7,7 +7,7 @@ export default function Contact() {
   return (
     <div className="text-black bg-black">
       <NextSeo
-        title="404: Jamaica Breaches"
+        title="404 - Jamaica Breaches"
         description="404 page for all our missing pages"
         canonical="https://jamaicabreaches.com/404"
         openGraph={{

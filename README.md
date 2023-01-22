@@ -8,25 +8,24 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Make your changes and do a pull request.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Wish to the contribute docs to Jamaica Breaches?
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Create a markdown file named after the subject that was affected by the security event. These files should be placed in the `_docs/` directory. 
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+It should be in this format:
 
-## Learn More
+```
+---
+name: Some Company
+year: 20xx
+type: Event (Hack etc)
+records: Number of records affected
+source: Link to some news publication.
+---
 
-To learn more about Next.js, take a look at the following resources:
+Quick Summary here.
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Then do a pull request.
