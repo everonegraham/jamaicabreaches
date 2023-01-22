@@ -33,7 +33,7 @@ export default function Home(props) {
       />
       <Head>
         <title>Jamaica Breaches</title>
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/images/favicon.png" />
       </Head>
       <Header />
       <Main {...props}/>

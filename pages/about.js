@@ -17,7 +17,7 @@ export default function About() {
       />
       <Head>
         <title>About - Jamaica Breaches</title>
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/images/favicon.png" />
       </Head>
       <Header />
       

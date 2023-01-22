@@ -16,7 +16,7 @@ export default function Contact() {
       />
       <Head>
         <title>Jamaica Breaches</title>
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/images/favicon.png" />
       </Head>
       <Header />
       <div className="flex flex-col justify-center mx-auto mt-52 text-center max-w-2x1">
