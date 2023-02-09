@@ -2,7 +2,7 @@
 name: SchoolManagerJa
 year: 2017
 type: Ransomware
-records: "14,000"
+records: ~14,000
 source: https://jamaica-gleaner.com/article/lead-stories/20170430/us5000-or-else-hackers-hijack-data-16-jamaican-schools-and-demand
 ---
 
