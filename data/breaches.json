@@ -1,0 +1,79 @@
+[
+    {
+        "target": "Digicel",
+        "year": 2009,
+        "type": "Hack",
+        "records": "??",
+        "source": "http://radiojamaicanewsonline.com/local/credit-scam-mastermind-denied-bail"
+    },
+    {
+        "target": "Digicel",
+        "year": 2013,
+        "type": "Hack",
+        "records": "??",
+        "source": "https://jamaica-gleaner.com/gleaner/20130126/lead/lead1.html"
+    },
+    {
+        "target": "SchoolManagerJa",
+        "year": 2017,
+        "type": "Ransomware",
+        "records":"~14,000",
+        "source": "https://jamaica-gleaner.com/article/lead-stories/20170430/us5000-or-else-hackers-hijack-data-16-jamaican-schools-and-demand" 
+    },
+    {
+        "target": "Jamaica Public Service Company",
+        "year": 2020,
+        "type": "Exposed Data",
+        "records": "??",
+        "source": "https://jamaica-gleaner.com/article/lead-stories/20221023/left-dark"
+    },
+    {
+        "target": "JamCovid App",
+        "year": 2021,
+        "type": "Exposed Data",
+        "records": "~425,000",
+        "source": "https://techcrunch.com/2021/02/17/jamaica-immigration-travelers-data-exposed"
+    },
+    {
+        "target": "JamCovid App",
+        "year": 2021,
+        "type": "Exposed Keys",
+        "records": "??",
+        "source": "https://techcrunch.com/2021/02/22/jamaica-amber-group-jamcovid-security-lapse"
+    },
+    {
+        "target": "JamCovid App",
+        "year": 2021,
+        "type": "Exposed Data",
+        "records": "~500,000",
+        "source": "https://techcrunch.com/2021/02/26/amber-group-jamcovid-data-exposed"
+    },
+    {
+        "target":" Massy Jamaica Distribution Limited",
+        "year": 2022,
+        "type": "Ransomware",
+        "records": "~705,000",
+        "source": "https://jamaica-gleaner.com/article/esponsored/20221017/massys-ransomware-attack-exposes-consumers-and-companies" 
+    },
+    {
+        "target": "Northern Caribbean University",
+        "year": 2022,
+        "type": "Ransomware",
+        "records": "??",
+        "source": "https://jamaica-gleaner.com/article/lead-stories/20220128/update-hackers-hold-ncu-ransom"
+    },
+    {
+        "target": "South East Regional Health Authority",
+        "year": 2023,
+        "type": "Hack",
+        "records": "??",
+        "source": "https://www.jamaicaobserver.com/latest-news/pnp-calls-on-tufton-to-address-alleged-data-breach-at-serha"
+    },
+    {
+        "target": "Office of the Prime Minister",
+        "year": 2023,
+        "type": "??",
+        "records": "??",
+        "source": "https://www.jamaicaobserver.com/latest-news/opm-hit-by-cyberattack"
+    }
+]
