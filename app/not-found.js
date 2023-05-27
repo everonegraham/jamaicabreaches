@@ -1,35 +1,32 @@
 import Head from "next/head";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import { NextSeo } from "next-seo";
+import Link from 'next/link';
 
-export default function Contact() {
+export const metadata = {
+  title: '404 - Jamaica Breaches',
+  description: 'Recording security breaches, data leaks, hacks and scams taking place in Jamaica.',
+  canonical: 'https://jamaicabreaches.com/',
+  openGraph: {
+    url: 'https://jamaicabreaches.com/',
+  },
+};
+
+export default function NotFound() {
   return (
     <div className="text-black bg-black">
-      <NextSeo
-        title="404 - Jamaica Breaches"
-        description="404 page for all our missing pages"
-        canonical="https://jamaicabreaches.com/404"
-        openGraph={{
-          url: "https://jamaicabreaches.com/404",
-        }}
-      />
-      <Head>
-        <title>Jamaica Breaches</title>
-        <link rel="icon" href="/images/favicon.png" />
-      </Head>
       <Header />
       <div className="flex flex-col justify-center mx-auto mt-52 text-center max-w-2x1">
         <h1 className="text-3xl font-bold tracking-tight text-white md:text-5xl">
-          404 – Unavailable
+          404 - Unavailable
         </h1>
         <br />
-        <a
+        <Link
           className="w-64 p-1 mx-auto font-bold text-center text-white border border-gray-500 rounded-lg sm:p-4"
           href="/"
         >
           Return Home
-        </a>
+        </Link>
       </div>
       <div className="mt-64"></div>
       <Footer />

@@ -1,9 +1,9 @@
+import Link from 'next/link';
 import data from '../data/breaches.json';
 
 export default function Table() {
 
     return (
-
         <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
             <table className="w-full text-m text-center text-gray-500">
                 <thead className="text-lg text-white uppercase bg-blue-500">
@@ -21,12 +21,12 @@ export default function Table() {
                             <td className="px-6 py-4">{item.type}</td>
                             <td className="px-6 py-4">{item.records}</td>
                             <td className="px-6 py-4 hover:underline">
-                                <a href={item.source} target="_blank" rel="noreferrer">Link</a>
+                                <Link href={item.source} target="_blank" rel="noreferrer">Link</Link>
                             </td>
                         </tr>
                     ))} 
                 </tbody>
             </table>
-        </div> 
+        </div>
     );
 }
