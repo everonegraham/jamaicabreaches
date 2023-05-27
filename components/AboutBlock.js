@@ -6,7 +6,7 @@ export default function SmallBlock() {
             about the latest cybersecurity breaches, data leaks, hacks and scams takin place in Jamaica.
             We do this this by logging some information about these events, along with sources. 
             We believe that knowledge is power, and through staying informed, we can 
-            all make desicions that's best for us.
+            all make desicions that is best for us.
             </p>
             {/* <div className="pt-12 pb-24 max-w-4xl mx-auto fsac4 md:px-1 px-3">
                 <div className="ktq4">

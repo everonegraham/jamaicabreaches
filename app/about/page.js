@@ -1,4 +1,4 @@
-import AboutBlock from '.../components/AboutBlock';
+import AboutBlock from '../../components/AboutBlock';
 
 export const metadata = {
   title: 'About - Jamaica Breaches',
