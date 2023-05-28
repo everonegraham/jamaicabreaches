@@ -4,6 +4,7 @@ export const metadata = {
   description: 'Recording security breaches, data leaks, hacks and scams taking place in Jamaica.',
   canonical: 'https://jamaicabreaches.com/',
   openGraph: {
+    website: 'Jamaica Breaches',
     url: 'https://jamaicabreaches.com/',
   },
 };

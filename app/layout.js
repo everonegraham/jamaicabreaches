@@ -5,10 +5,12 @@ import "./globals.css"
 
 export default function RootLayout({ children }) {
     return (
+      <body lang="eng">
         <div className="text-black bg-black flex flex-col min-h-screen">
           <Header />
             <body>{children}</body>
           <Footer />
         </div>
+      </body>
     );
   }

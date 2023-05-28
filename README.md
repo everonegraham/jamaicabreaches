@@ -12,20 +12,21 @@ Make your changes and do a pull request.
 
 ## Wish to the contribute docs to Jamaica Breaches?
 
-Create a markdown file named after the subject that was affected by the security event. These files should be placed in the `_docs/` directory. 
+Add and entry in the breaches.json file. This file is located in the `data/` directory. 
 
 It should be in this format:
 
 ```
 ---
-name: Some Company
-year: 20xx
-type: Event (Hack etc)
-records: Number of records affected
-source: Link to some news publication.
+{
+    name: Some Company
+    year: 20xx
+    type: Event (Hack etc)
+    records: Number of records affected
+    source: Link to some news publication.
+}
 ---
-
-Quick Summary here.
 ```
+Ensure each entry is added by year, in asending order. 
 
 Then do a pull request.
