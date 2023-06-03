@@ -75,5 +75,13 @@
         "type": "??",
         "records": "??",
         "source": "https://www.jamaicaobserver.com/latest-news/opm-hit-by-cyberattack"
+    },
+    {
+        "target": "Mayberry Investments",
+        "year": 2023,
+        "type": "Ransomware",
+        "records": "??",
+        "source": "https://www.redpacketsecurity.com/play-ransomware-victim-mayberry-investments"
     }
+
 ]
