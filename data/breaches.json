@@ -63,6 +63,13 @@
         "source": "https://jamaica-gleaner.com/article/lead-stories/20220128/update-hackers-hold-ncu-ransom"
     },
     {
+        "target": "R Hotel Jamaica",
+        "year": 2022,
+        "type": "Ransomware",
+        "records": "??",
+        "source": "https://www.redpacketsecurity.com/lockbit-3-0-ransomware-victim-rhotelja-com"
+    },
+    {
         "target": "South East Regional Health Authority",
         "year": 2023,
         "type": "Hack",
