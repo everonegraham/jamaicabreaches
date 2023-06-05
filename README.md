@@ -1,22 +1,32 @@
-# next-template
+## Wish to the contribute code to Jamaica Breaches?
 
-A Next.js 13 template for building apps with Radix UI and Tailwind CSS.
-
-## Usage
+First, run the development server:
 
 ```bash
-npx create-next-app -e https://github.com/shadcn/next-template
+npm run dev
+# or
+yarn dev
 ```
 
-## Features
+Make your changes and do a pull request.
 
-- Next.js 13 App Directory
-- Radix UI Primitives
-- Tailwind CSS
-- Icons from [Lucide](https://lucide.dev)
-- Dark mode with `next-themes`
-- Tailwind CSS class sorting, merging and linting.
+## Wish to the contribute docs to Jamaica Breaches?
 
-## License
+Add and entry in the breaches.json file. This file is located in the `data/` directory. 
 
-Licensed under the [MIT license](https://github.com/shadcn/ui/blob/main/LICENSE.md).
+It should be in this format:
+
+```
+---
+{
+    name: Some Company
+    year: 20xx
+    type: Event (Hack etc)
+    records: Number of records affected
+    source: Link to some news publication.
+}
+---
+```
+Ensure each entry is added by year, in asending order. 
+
+Then do a pull request.
