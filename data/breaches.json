@@ -89,6 +89,13 @@
         "type": "Ransomware",
         "records": "??",
         "source": "https://www.jamaicaobserver.com/business/under-attack"
+    },
+    {
+        "target": "Jamaica Eye",
+        "year": 2023,
+        "type": "Hack",
+        "records": "??",
+        "source": "https://twitter.com/mnsgovjm/status/1667858108343808000"
     }
 
 ]
