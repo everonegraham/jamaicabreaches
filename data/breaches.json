@@ -3,14 +3,14 @@
         "target": "Digicel",
         "year": 2009,
         "type": "Hack",
-        "records": "??",
+        "records": "Unknown",
         "source": "http://radiojamaicanewsonline.com/local/credit-scam-mastermind-denied-bail"
     },
     {
         "target": "Digicel",
         "year": 2013,
         "type": "Hack",
-        "records": "??",
+        "records": "Unknown",
         "source": "https://jamaica-gleaner.com/gleaner/20130126/lead/lead1.html"
     },
     {
@@ -24,7 +24,7 @@
         "target": "Jamaica Public Service Company",
         "year": 2020,
         "type": "Exposed Data",
-        "records": "??",
+        "records": "Unknown",
         "source": "https://jamaica-gleaner.com/article/lead-stories/20221023/left-dark"
     },
     {
@@ -38,7 +38,7 @@
         "target": "JamCovid App",
         "year": 2021,
         "type": "Exposed Keys",
-        "records": "??",
+        "records": "Unknown",
         "source": "https://techcrunch.com/2021/02/22/jamaica-amber-group-jamcovid-security-lapse"
     },
     {
@@ -59,42 +59,42 @@
         "target": "Northern Caribbean University",
         "year": 2022,
         "type": "Ransomware",
-        "records": "??",
+        "records": "Unknown",
         "source": "https://jamaica-gleaner.com/article/lead-stories/20220128/update-hackers-hold-ncu-ransom"
     },
     {
         "target": "R Hotel Jamaica",
         "year": 2022,
         "type": "Ransomware",
-        "records": "??",
+        "records": "Unknown",
         "source": "https://www.redpacketsecurity.com/lockbit-3-0-ransomware-victim-rhotelja-com"
     },
     {
         "target": "South East Regional Health Authority",
         "year": 2023,
         "type": "Hack",
-        "records": "??",
+        "records": "Unknown",
         "source": "https://www.jamaicaobserver.com/latest-news/pnp-calls-on-tufton-to-address-alleged-data-breach-at-serha"
     },
     {
         "target": "Office of the Prime Minister",
         "year": 2023,
-        "type": "??",
-        "records": "??",
+        "type": "Unknown",
+        "records": "Unknown",
         "source": "https://www.jamaicaobserver.com/latest-news/opm-hit-by-cyberattack"
     },
     {
         "target": "Mayberry Investments",
         "year": 2023,
         "type": "Ransomware",
-        "records": "??",
+        "records": "Unknown",
         "source": "https://www.jamaicaobserver.com/business/under-attack"
     },
     {
         "target": "Jamaica Eye",
         "year": 2023,
         "type": "Hack",
-        "records": "??",
+        "records": "Unknown",
         "source": "https://twitter.com/mnsgovjm/status/1667858108343808000"
     }
 
