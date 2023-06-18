@@ -91,11 +91,18 @@
         "source": "https://www.jamaicaobserver.com/business/under-attack"
     },
     {
-        "target": "Jamaica Eye",
+        "target": "JamaicaEye",
         "year": 2023,
         "type": "Hack",
         "records": "Unknown",
         "source": "https://twitter.com/mnsgovjm/status/1667858108343808000"
+    },
+    {
+        "target": "Jamaica Observer",
+        "year": 2023,
+        "type": "Hack",
+        "records": "Unknown",
+        "source": "https://drive.google.com/file/d/1yfc8YFLy0c6MhX9lkDm3yBzcr0FOVQOQ"
     }
 
 ]
