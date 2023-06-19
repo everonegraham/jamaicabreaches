@@ -2,16 +2,24 @@
  
 import { ColumnDef } from "@tanstack/react-table"
 import Link from "next/link"
-import { Icons } from "../icons"
-import { ArrowUpDown, MoreHorizontal } from "lucide-react"
+import { ArrowUpDown, Link as Link_ } from "lucide-react"
 import { Button } from "../ui/button"
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu"
 
 export type Breaches = {
   target: string
   year: number
   type: string
   records: string
-  source: string
+  source:{
+    [key: string]: string
+  };
 }
 
 export const columns: ColumnDef<Breaches>[] = [
@@ -65,10 +73,34 @@ export const columns: ColumnDef<Breaches>[] = [
       accessorKey: "source",
       header: "Source",
       cell: ({ row }) => {
+        const source: Breaches["source"] = row.getValue("source")
+        const keys = Object.keys(source) 
         return (
-          <Link href={row.getValue("source")} target="_blank" rel="noreferrer">
-            <Icons.linkIcon className="h-5 w-5"/>
-          </Link>
+          <DropdownMenu>
+
+            <DropdownMenuTrigger asChild>
+              <Button variant="outline" className="w-10 rounded-full p-0">
+                <Link_ className="h-4 w-4" />
+                <span className="sr-only">Open menu</span>
+              </Button>
+            </DropdownMenuTrigger>
+
+            <DropdownMenuContent align="end" className="w-[160px]">
+              {keys.map((key, index) => (
+                <div>
+                  <DropdownMenuItem key={key}>
+                    <Link_ className="mr-2 h-3.5 w-3.5 text-muted-foreground/70" />
+                    <Link href={source[key]} target="_blank" rel="noreferrer">
+                      <h4 className="font-medium leading-none">
+                        {key}
+                      </h4>
+                    </Link>
+                  </DropdownMenuItem>
+                  {index < keys.length - 1 && <DropdownMenuSeparator />}
+                </div>
+              ))}
+            </DropdownMenuContent>
+          </DropdownMenu>
         )
 
       }
