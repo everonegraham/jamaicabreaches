@@ -68,7 +68,8 @@
         "type": "Ransomware",
         "records": "~705,000",
         "source": {
-            "Jamaica Gleaner": "https://jamaica-gleaner.com/article/esponsored/20221017/massys-ransomware-attack-exposes-consumers-and-companies"
+            "Jamaica Gleaner": "https://jamaica-gleaner.com/article/esponsored/20221017/massys-ransomware-attack-exposes-consumers-and-companies",
+            "Red Packet Security": "https://www.redpacketsecurity.com/lockbit-3-0-ransomware-victim-hdhopwood-com"
         }
     },
     {
@@ -92,10 +93,13 @@
     {
         "target": "South East Regional Health Authority",
         "year": 2023,
-        "type": "Hack",
+        "type": "Ransomware",
         "records": "Unknown",
         "source": {
-            "Jamaica Observer": "https://www.jamaicaobserver.com/latest-news/pnp-calls-on-tufton-to-address-alleged-data-breach-at-serha"
+            "Jamaica Observer": "https://www.jamaicaobserver.com/latest-news/ict-other-services-impacted-by-cyberattack-serha",
+            "Jamaica Observer (2)": "https://www.jamaicaobserver.com/latest-news/pnp-calls-on-tufton-to-address-alleged-data-breach-at-serha",
+            "Jamaica Gleaner": "https://jamaica-gleaner.com/article/news/20230126/more-information-needed-serha-cyberattack",
+            "Loop News": "https://jamaica.loopnews.com/content/health-authority-admits-cyberattack-opposition-wants-details"
         }
     },
     {
@@ -104,7 +108,10 @@
         "type": "Unknown",
         "records": "Unknown",
         "source": {
-            "Jamaica Observer": "https://www.jamaicaobserver.com/latest-news/opm-hit-by-cyberattack"
+            "Jamaica Observer": "https://www.jamaicaobserver.com/latest-news/opm-hit-by-cyberattack",
+            "Jamaica Gleaner": "https://jamaica-gleaner.com/article/news/20230216/office-prime-minister-hit-cyberattack",
+            "Radio Jamaica": "http://radiojamaicanewsonline.com/local/office-of-the-prime-minister-hit-by-cyberattack",
+            "Caribbean National Weekly": "https://www.caribbeannationalweekly.com/caribbean-breaking-news-featured/office-of-the-prime-minister-in-jamaica-hit-by-cyberattack"
         }
     },
     {
@@ -113,7 +120,13 @@
         "type": "Ransomware",
         "records": "Unknown",
         "source": {
-            "Jamaica Observer": "https://www.jamaicaobserver.com/business/under-attack"
+            "Jamaica Observer": "https://www.jamaicaobserver.com/business/under-attack",
+            "Jamaica Observer (2)": "https://www.jamaicaobserver.com/business/no-ransom-paid",
+            "Red Packet Security": "https://www.redpacketsecurity.com/play-ransomware-victim-mayberry-investments",
+            "Jamaica Gleaner": "http://jamaica.loopnews.com/content/mayberry-investments-targeted-cyberattack",
+            "Jamaica Gleaner (2)": "https://jamaica-gleaner.com/article/lead-stories/20230607/mayberry-clients-urged-increase-vigilance-after-cyberattack",
+            "Loop News": "http://jamaica.loopnews.com/content/mayberry-investments-targeted-cyberattack",
+            "Screenshot": "https://drive.google.com/file/d/1wnAsOnUSL7K02CgoeH5UqP-xnQtIkCLG"
         }
     },
     {
@@ -122,7 +135,14 @@
         "type": "Hack",
         "records": "Unknown",
         "source": {
-            "Twitter Post": "https://twitter.com/mnsgovjm/status/1667858108343808000"
+            "Twitter Post": "https://twitter.com/mnsgovjm/status/1667858108343808000",
+            "Jamaica Observer": "https://www.jamaicaobserver.com/latest-news/jamaicaeye-hit-by-cyber-attack-security-ministry",
+            "Jamaica Gleaner": "https://jamaica-gleaner.com/article/lead-stories/20230612/jamaicaeye-hack-heightens-concerns-over-security-nations-digital",
+            "RJR News": "http://radiojamaicanewsonline.com/local/concern-raised-about-monitoring-of-govt-websites-after-jamaicaeye-hacked",
+            "Loop News": "https://jamaica.loopnews.com/content/cyber-incident-affects-access-jamaicaeye-website",
+            "Nationwide News Network": "https://nationwideradiojm.com/investigation-underway-into-jamaica-eye-cyber-attack",
+            "Our Today": "https://our.today/national-security-ministry-confirms-cyber-incident-with-jamaicaeye-website",
+            "Irie FM": "https://www.iriefm.net/jamaicaeye-website-affected-by-cyber-attack"
         }
         
     },
@@ -133,7 +153,9 @@
         "records": "Unknown",
         "source": {
             "Screenshot 1": "https://drive.google.com/file/d/1yfc8YFLy0c6MhX9lkDm3yBzcr0FOVQOQ",
-            "Screenshot 2": "https://drive.google.com/file/d/1FovRxTpiSa0BQf3gPmAi7hoTflR7bLYS"
+            "Screenshot 2": "https://drive.google.com/file/d/1FovRxTpiSa0BQf3gPmAi7hoTflR7bLYS",
+            "Jamaica Observer": "https://www.jamaicaobserver.com/latest-news/observer-detects-suspicious-activities-on-social-media-platforms-suspends-postings",
+            "Nationwide News Network": "https://nationwideradiojm.com/twitter-hack-forces-jamaica-observer-to-suspend-social-media-activity"
         }
     }
 
