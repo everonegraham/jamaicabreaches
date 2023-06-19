@@ -17,6 +17,24 @@
             "Jamaica Gleaner": "https://jamaica-gleaner.com/gleaner/20130126/lead/lead1.html"
         }
     },
+    {   
+        "target": "Tax Administration of Jamaica",
+        "year": 2013,
+        "type": "Hack",
+        "records": "Unknown",
+        "source": {
+            "Jamaica Gleaner": "https://jamaica-gleaner.com/gleaner/20120629/lead/lead5.html"
+        }
+    },
+    {   
+        "target": "Office of the Director of Public Prosecutions",
+        "year": 2013,
+        "type": "Hack",
+        "records": "Unknown",
+        "source": {
+            "Jamaica Gleaner": "https://jamaica-gleaner.com/power/42693"
+        }
+    },
     {
         "target": "SchoolManagerJa",
         "year": 2017,
@@ -69,7 +87,8 @@
         "records": "~705,000",
         "source": {
             "Jamaica Gleaner": "https://jamaica-gleaner.com/article/esponsored/20221017/massys-ransomware-attack-exposes-consumers-and-companies",
-            "Red Packet Security": "https://www.redpacketsecurity.com/lockbit-3-0-ransomware-victim-hdhopwood-com"
+            "Red Packet Security": "https://www.redpacketsecurity.com/lockbit-3-0-ransomware-victim-hdhopwood-com",
+            "Our Today": "https://our.today/jacirt-to-assist-serha-in-recent-data-breach"
         }
     },
     {
