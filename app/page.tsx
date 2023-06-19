@@ -15,6 +15,8 @@ async function getData(): Promise<Breaches[]> {
 export default async function IndexPage() {
   
   const data = await getData()
+  // Start table with most recent data
+  const data_ = data.reverse();
 
   return (
     <section className="container grid items-center gap-6 pb-8 pt-6 md:py-10">
@@ -37,7 +39,7 @@ export default async function IndexPage() {
         </div>
       </div>
       <div className="flex flex-col gap-2">
-        <DataTable columns={columns} data={data} />
+        <DataTable columns={columns} data={data_} />
       </div>
     </section>
   )
