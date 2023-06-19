@@ -68,7 +68,8 @@
         "type": "Ransomware",
         "records": "~705,000",
         "source": {
-            "Jamaica Gleaner": "https://jamaica-gleaner.com/article/esponsored/20221017/massys-ransomware-attack-exposes-consumers-and-companies"
+            "Jamaica Gleaner": "https://jamaica-gleaner.com/article/esponsored/20221017/massys-ransomware-attack-exposes-consumers-and-companies",
+            "Red Packet Security": "https://www.redpacketsecurity.com/lockbit-3-0-ransomware-victim-hdhopwood-com"
         }
     },
     {
@@ -92,10 +93,13 @@
     {
         "target": "South East Regional Health Authority",
         "year": 2023,
-        "type": "Hack",
+        "type": "Ransomware",
         "records": "Unknown",
         "source": {
-            "Jamaica Observer": "https://www.jamaicaobserver.com/latest-news/pnp-calls-on-tufton-to-address-alleged-data-breach-at-serha"
+            "Jamaica Observer": "https://www.jamaicaobserver.com/latest-news/ict-other-services-impacted-by-cyberattack-serha",
+            "Jamaica Observer (2)": "https://www.jamaicaobserver.com/latest-news/pnp-calls-on-tufton-to-address-alleged-data-breach-at-serha",
+            "Jamaica Gleaner": "https://jamaica-gleaner.com/article/news/20230126/more-information-needed-serha-cyberattack",
+            "Loop News": "https://jamaica.loopnews.com/content/health-authority-admits-cyberattack-opposition-wants-details"
         }
     },
     {
@@ -104,7 +108,10 @@
         "type": "Unknown",
         "records": "Unknown",
         "source": {
-            "Jamaica Observer": "https://www.jamaicaobserver.com/latest-news/opm-hit-by-cyberattack"
+            "Jamaica Observer": "https://www.jamaicaobserver.com/latest-news/opm-hit-by-cyberattack",
+            "Jamaica Gleaner": "https://jamaica-gleaner.com/article/news/20230216/office-prime-minister-hit-cyberattack",
+            "Radio Jamaica": "http://radiojamaicanewsonline.com/local/office-of-the-prime-minister-hit-by-cyberattack",
+            "Caribbean National Weekly": "https://www.caribbeannationalweekly.com/caribbean-breaking-news-featured/office-of-the-prime-minister-in-jamaica-hit-by-cyberattack"
         }
     },
     {
@@ -118,7 +125,8 @@
             "Red Packet Security": "https://www.redpacketsecurity.com/play-ransomware-victim-mayberry-investments",
             "Jamaica Gleaner": "http://jamaica.loopnews.com/content/mayberry-investments-targeted-cyberattack",
             "Jamaica Gleaner (2)": "https://jamaica-gleaner.com/article/lead-stories/20230607/mayberry-clients-urged-increase-vigilance-after-cyberattack",
-            "Loop News": "http://jamaica.loopnews.com/content/mayberry-investments-targeted-cyberattack"
+            "Loop News": "http://jamaica.loopnews.com/content/mayberry-investments-targeted-cyberattack",
+            "Screenshot": "https://drive.google.com/file/d/1wnAsOnUSL7K02CgoeH5UqP-xnQtIkCLG"
         }
     },
     {
