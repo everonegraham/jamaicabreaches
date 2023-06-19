@@ -18,9 +18,10 @@ export type Breaches = {
   type: string
   records: string
   source:{
-    [key: string]: string
+    [key: string]: any
   };
 }
+
 
 export const columns: ColumnDef<Breaches>[] = [
     {
@@ -87,8 +88,8 @@ export const columns: ColumnDef<Breaches>[] = [
 
             <DropdownMenuContent align="end" className="w-[160px]">
               {keys.map((key, index) => (
-                <div>
-                  <DropdownMenuItem key={key}>
+                <div key={key}>
+                  <DropdownMenuItem>
                     <Link_ className="mr-2 h-3.5 w-3.5 text-muted-foreground/70" />
                     <Link href={source[key]} target="_blank" rel="noreferrer">
                       <h4 className="font-medium leading-none">
