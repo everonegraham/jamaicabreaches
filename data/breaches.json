@@ -59,7 +59,11 @@
         "type": "Exposed Data",
         "records": "~425,000",
         "source": {
-            "Tech Crunch": "https://techcrunch.com/2021/02/17/jamaica-immigration-travelers-data-exposed"
+            "Tech Crunch": "https://techcrunch.com/2021/02/17/jamaica-immigration-travelers-data-exposed",
+            "Jamaica Gleaner": "https://jamaica-gleaner.com/article/lead-stories/20210218/data-breach-blowback-jamcovid-exposure-treasure-trove-scammers-says",
+            "Jamaica Observer": "https://www.jamaicaobserver.com/latest-news/security-ministry-says-it-corrected-security-vulnerability-on-jamcovid-19-app",
+            "RJR News": "http://radiojamaicanewsonline.com/local/immigration-data-of-thousands-exposed-on-jamcovid-19-website",
+            "Nationwide News Network": "https://nationwideradiojm.com/govt-faces-scrutiny-over-handling-of-jamcovid-app-data-breach"
         }
     },
     {
@@ -81,7 +85,7 @@
         }
     },
     {
-        "target":" Massy Jamaica Distribution Limited",
+        "target": "Massy Jamaica Distribution Limited",
         "year": 2022,
         "type": "Ransomware",
         "records": "~705,000",
@@ -97,7 +101,11 @@
         "type": "Ransomware",
         "records": "Unknown",
         "source": {
-            "Jamaica Gleaner": "https://jamaica-gleaner.com/article/lead-stories/20220128/update-hackers-hold-ncu-ransom"
+            "Jamaica Gleaner": "https://jamaica-gleaner.com/article/lead-stories/20220128/update-hackers-hold-ncu-ransom",
+            "Jamaica Gleaner (2)": "https://jamaica-gleaner.com/article/lead-stories/20220209/ransomware-attack-less-disruptive-earlier-thought-ncu-says",
+            "Nationwide News Network": "https://nationwideradiojm.com/ncu-says-cyber-attacker-remains-unidentified",
+            "Cayman Marl Road": "https://caymanmarlroad.com/2022/01/28/hackers-hold-jamaican-university-ransom",
+            "United Students Movement": "https://usm.ncu.edu.jm/ncu-hit-with-cyberattack"
         }
     },
     {
@@ -106,7 +114,8 @@
         "type": "Ransomware",
         "records": "Unknown",
         "source": {
-            "Red Packet Security": "https://www.redpacketsecurity.com/lockbit-3-0-ransomware-victim-rhotelja-com"
+            "Red Packet Security": "https://www.redpacketsecurity.com/lockbit-3-0-ransomware-victim-rhotelja-com",
+            "Screenshot": "https://drive.google.com/file/d/1kVaeHgGusETpgEX60NllT0LzyypoboHs"
         }
     },
     {
@@ -168,7 +177,7 @@
     {
         "target": "Jamaica Observer",
         "year": 2023,
-        "type": "Hack",
+        "type": "Social Media Hijack",
         "records": "Unknown",
         "source": {
             "Screenshot 1": "https://drive.google.com/file/d/1yfc8YFLy0c6MhX9lkDm3yBzcr0FOVQOQ",
