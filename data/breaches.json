@@ -5,7 +5,7 @@
         "type": "Hack",
         "records": "Unknown",
         "source": {
-            "Radio Jamaica": "http://radiojamaicanewsonline.com/local/credit-scam-mastermind-denied-bail"
+            "Radio Jamaica News": "http://radiojamaicanewsonline.com/local/credit-scam-mastermind-denied-bail"
         }
     },
     {
@@ -62,7 +62,7 @@
             "Tech Crunch": "https://techcrunch.com/2021/02/17/jamaica-immigration-travelers-data-exposed",
             "Jamaica Gleaner": "https://jamaica-gleaner.com/article/lead-stories/20210218/data-breach-blowback-jamcovid-exposure-treasure-trove-scammers-says",
             "Jamaica Observer": "https://www.jamaicaobserver.com/latest-news/security-ministry-says-it-corrected-security-vulnerability-on-jamcovid-19-app",
-            "RJR News": "http://radiojamaicanewsonline.com/local/immigration-data-of-thousands-exposed-on-jamcovid-19-website",
+            "Radio Jamaica News": "http://radiojamaicanewsonline.com/local/immigration-data-of-thousands-exposed-on-jamcovid-19-website",
             "Nationwide News Network": "https://nationwideradiojm.com/govt-faces-scrutiny-over-handling-of-jamcovid-app-data-breach"
         }
     },
@@ -78,7 +78,7 @@
             "Jamaica Observer": "https://www.jamaicaobserver.com/news/govt-urged-to-strenghten-checks-as-second-jamcovid-security-lapse-reported",
             "Nationwide News Network": "https://nationwideradiojm.com/cyber-tech-experts-second-jamcovid-app-vulnerability-may-be-worse-than-the-first",
             "Nationwide News Network (2)": "https://nationwideradiojm.com/amber-group-debunk-allegations-of-second-jamcovid-website-breach",
-            "Radio Jamaica": "http://radiojamaicanewsonline.com/local/us-outlet-reports-second-jamcovid-19-security-lapse",
+            "Radio Jamaica News": "http://radiojamaicanewsonline.com/local/us-outlet-reports-second-jamcovid-19-security-lapse",
             "Irie FM": "https://www.iriefm.net/amber-group-reportedly-fixes-second-security-lapse-that-exposed-private-keys-and-passwords-for-the-governments-jamcovid-app-and-website"
         }
     },
@@ -146,7 +146,7 @@
         "source": {
             "Jamaica Observer": "https://www.jamaicaobserver.com/latest-news/opm-hit-by-cyberattack",
             "Jamaica Gleaner": "https://jamaica-gleaner.com/article/news/20230216/office-prime-minister-hit-cyberattack",
-            "Radio Jamaica": "http://radiojamaicanewsonline.com/local/office-of-the-prime-minister-hit-by-cyberattack",
+            "Radio Jamaica News": "http://radiojamaicanewsonline.com/local/office-of-the-prime-minister-hit-by-cyberattack",
             "Caribbean National Weekly": "https://www.caribbeannationalweekly.com/caribbean-breaking-news-featured/office-of-the-prime-minister-in-jamaica-hit-by-cyberattack"
         }
     },
@@ -159,9 +159,10 @@
             "Jamaica Observer": "https://www.jamaicaobserver.com/business/under-attack",
             "Jamaica Observer (2)": "https://www.jamaicaobserver.com/business/no-ransom-paid",
             "Red Packet Security": "https://www.redpacketsecurity.com/play-ransomware-victim-mayberry-investments",
-            "Jamaica Gleaner": "http://jamaica.loopnews.com/content/mayberry-investments-targeted-cyberattack",
+            "Jamaica Gleaner": "https://jamaica-gleaner.com/article/business/20230606/mayberry-confirms-cyberattack-its-systems",
             "Jamaica Gleaner (2)": "https://jamaica-gleaner.com/article/lead-stories/20230607/mayberry-clients-urged-increase-vigilance-after-cyberattack",
             "Loop News": "http://jamaica.loopnews.com/content/mayberry-investments-targeted-cyberattack",
+            "Radio Jamaica News": "http://radiojamaicanewsonline.com/business/mayberry-says-hackers-did-not-access-client-accounts",
             "Screenshot": "https://drive.google.com/file/d/1wnAsOnUSL7K02CgoeH5UqP-xnQtIkCLG"
         }
     },
@@ -174,7 +175,7 @@
             "Twitter Post": "https://twitter.com/mnsgovjm/status/1667858108343808000",
             "Jamaica Observer": "https://www.jamaicaobserver.com/latest-news/jamaicaeye-hit-by-cyber-attack-security-ministry",
             "Jamaica Gleaner": "https://jamaica-gleaner.com/article/lead-stories/20230612/jamaicaeye-hack-heightens-concerns-over-security-nations-digital",
-            "RJR News": "http://radiojamaicanewsonline.com/local/concern-raised-about-monitoring-of-govt-websites-after-jamaicaeye-hacked",
+            "Radio Jamaica News": "http://radiojamaicanewsonline.com/local/concern-raised-about-monitoring-of-govt-websites-after-jamaicaeye-hacked",
             "Loop News": "https://jamaica.loopnews.com/content/cyber-incident-affects-access-jamaicaeye-website",
             "Nationwide News Network": "https://nationwideradiojm.com/investigation-underway-into-jamaica-eye-cyber-attack",
             "Our Today": "https://our.today/national-security-ministry-confirms-cyber-incident-with-jamaicaeye-website",
