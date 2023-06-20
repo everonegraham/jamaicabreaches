@@ -72,7 +72,14 @@
         "type": "Exposed Keys",
         "records": "Unknown",
         "source": {
-            "Tech Crunch": "https://techcrunch.com/2021/02/22/jamaica-amber-group-jamcovid-security-lapse"
+            "Tech Crunch": "https://techcrunch.com/2021/02/22/jamaica-amber-group-jamcovid-security-lapse",
+            "Jamaica Gleaner": "https://jamaica-gleaner.com/article/news/20210222/another-alleged-jamcovid-security-flaw-uncovered",
+            "Jamaica Gleaner (2)": "https://jamaica-gleaner.com/article/news/20210222/totally-shot-golding-knocks-jamcovid-app-alleged-second-flaw-discovered",
+            "Jamaica Observer": "https://www.jamaicaobserver.com/news/govt-urged-to-strenghten-checks-as-second-jamcovid-security-lapse-reported",
+            "Nationwide News Network": "https://nationwideradiojm.com/cyber-tech-experts-second-jamcovid-app-vulnerability-may-be-worse-than-the-first",
+            "Nationwide News Network (2)": "https://nationwideradiojm.com/amber-group-debunk-allegations-of-second-jamcovid-website-breach",
+            "Radio Jamaica": "http://radiojamaicanewsonline.com/local/us-outlet-reports-second-jamcovid-19-security-lapse",
+            "Irie FM": "https://www.iriefm.net/amber-group-reportedly-fixes-second-security-lapse-that-exposed-private-keys-and-passwords-for-the-governments-jamcovid-app-and-website"
         }
     },
     {
