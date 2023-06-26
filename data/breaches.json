@@ -194,6 +194,17 @@
             "Jamaica Observer": "https://www.jamaicaobserver.com/latest-news/observer-detects-suspicious-activities-on-social-media-platforms-suspends-postings",
             "Nationwide News Network": "https://nationwideradiojm.com/twitter-hack-forces-jamaica-observer-to-suspend-social-media-activity"
         }
+    },
+    {
+        "target": "The Institute of Caribbean Studies (UWI Mona)",
+        "year": 2023,
+        "type": "Social Media Hijack",
+        "records": "Unknown",
+        "source": {
+            "Screenshot 1": "https://drive.google.com/file/d/1CR5XipeCu5rXJ2qSkaWJRXqusk2VvgLR",
+            "Screenshot 2": "https://drive.google.com/file/d/1Dq_017muqxOlJmv8C2j2IydEv16wgLRN",
+            "Screenshot 3": "https://drive.google.com/file/d/1K6u4zKTGclCHWjARqxu6B9sA_59a7cEg"
+        }
     }
 
 ]
