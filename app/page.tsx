@@ -19,15 +19,15 @@ export default async function IndexPage() {
   const data_ = data.reverse();
 
   return (
-    <section className="container grid items-center gap-6 pb-8 pt-6 md:py-10">
-      <div className="flex flex-col items-center gap-2">
-        <h1 className="text-4xl font-extrabold leading-tight tracking-tighter md:text-5xl">
+    <div className="container items-center gap-6 py-5 md:py-10">
+      <div className="mx-auto flex flex-col items-center gap-6 px-4 md:mt-12 xl:mt-16">
+        <h1 className="text-center text-4xl font-extrabold leading-tight tracking-tighter md:text-5xl">
           The Jamaican Security Logbook
         </h1>
-        <p className="text-lg text-muted-foreground">
+        <p className="text-center text-lg text-muted-foreground">
           Recording security breaches, data leaks, hacks and scams taking place in Jamaica.
         </p>
-        <div className="flex gap-4">
+        <div className="flex gap-4 text-center">
           <Link
             target="_blank"
             rel="noreferrer"
@@ -38,9 +38,11 @@ export default async function IndexPage() {
           </Link>
         </div>
       </div>
-      <div className="flex flex-col gap-2">
-        <DataTable columns={columns} data={data_} />
+      <div>
+        <div className="overflow-x flex h-full flex-1 flex-col">
+          <DataTable columns={columns} data={data_} />
+        </div>
       </div>
-    </section>
+    </div>
   )
 }

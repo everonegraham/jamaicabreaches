@@ -86,7 +86,7 @@ export const columns: ColumnDef<Breaches>[] = [
               </Button>
             </DropdownMenuTrigger>
 
-            <DropdownMenuContent align="end" className="w-[160px]">
+            <DropdownMenuContent align="end" className="w-36">
               {keys.map((key, index) => (
                 <div key={key}>
                   <DropdownMenuItem>

@@ -13,10 +13,6 @@ export const siteConfig = {
       title: "About",
       href: "/about",
     },
-    {
-      title: "Disclaimer",
-      href: "/disclaimer",
-    },
   ],
   links: {
     twitter: "https://twitter.com/JamaicaBreaches",
