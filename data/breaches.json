@@ -5,7 +5,7 @@
         "type": "Hack",
         "records": "Unknown",
         "source": {
-            "Radio Jamaica": "http://radiojamaicanewsonline.com/local/credit-scam-mastermind-denied-bail"
+            "Radio Jamaica News": "http://radiojamaicanewsonline.com/local/credit-scam-mastermind-denied-bail"
         }
     },
     {
@@ -15,6 +15,24 @@
         "records": "Unknown",
         "source": {
             "Jamaica Gleaner": "https://jamaica-gleaner.com/gleaner/20130126/lead/lead1.html"
+        }
+    },
+    {   
+        "target": "Tax Administration of Jamaica",
+        "year": 2013,
+        "type": "Hack",
+        "records": "Unknown",
+        "source": {
+            "Jamaica Gleaner": "https://jamaica-gleaner.com/gleaner/20120629/lead/lead5.html"
+        }
+    },
+    {   
+        "target": "Office of the Director of Public Prosecutions",
+        "year": 2013,
+        "type": "Hack",
+        "records": "Unknown",
+        "source": {
+            "Jamaica Gleaner": "https://jamaica-gleaner.com/power/42693"
         }
     },
     {
@@ -41,7 +59,11 @@
         "type": "Exposed Data",
         "records": "~425,000",
         "source": {
-            "Tech Crunch": "https://techcrunch.com/2021/02/17/jamaica-immigration-travelers-data-exposed"
+            "Tech Crunch": "https://techcrunch.com/2021/02/17/jamaica-immigration-travelers-data-exposed",
+            "Jamaica Gleaner": "https://jamaica-gleaner.com/article/lead-stories/20210218/data-breach-blowback-jamcovid-exposure-treasure-trove-scammers-says",
+            "Jamaica Observer": "https://www.jamaicaobserver.com/latest-news/security-ministry-says-it-corrected-security-vulnerability-on-jamcovid-19-app",
+            "Radio Jamaica News": "http://radiojamaicanewsonline.com/local/immigration-data-of-thousands-exposed-on-jamcovid-19-website",
+            "Nationwide News Network": "https://nationwideradiojm.com/govt-faces-scrutiny-over-handling-of-jamcovid-app-data-breach"
         }
     },
     {
@@ -50,7 +72,14 @@
         "type": "Exposed Keys",
         "records": "Unknown",
         "source": {
-            "Tech Crunch": "https://techcrunch.com/2021/02/22/jamaica-amber-group-jamcovid-security-lapse"
+            "Tech Crunch": "https://techcrunch.com/2021/02/22/jamaica-amber-group-jamcovid-security-lapse",
+            "Jamaica Gleaner": "https://jamaica-gleaner.com/article/news/20210222/another-alleged-jamcovid-security-flaw-uncovered",
+            "Jamaica Gleaner (2)": "https://jamaica-gleaner.com/article/news/20210222/totally-shot-golding-knocks-jamcovid-app-alleged-second-flaw-discovered",
+            "Jamaica Observer": "https://www.jamaicaobserver.com/news/govt-urged-to-strenghten-checks-as-second-jamcovid-security-lapse-reported",
+            "Nationwide News Network": "https://nationwideradiojm.com/cyber-tech-experts-second-jamcovid-app-vulnerability-may-be-worse-than-the-first",
+            "Nationwide News Network (2)": "https://nationwideradiojm.com/amber-group-debunk-allegations-of-second-jamcovid-website-breach",
+            "Radio Jamaica News": "http://radiojamaicanewsonline.com/local/us-outlet-reports-second-jamcovid-19-security-lapse",
+            "Irie FM": "https://www.iriefm.net/amber-group-reportedly-fixes-second-security-lapse-that-exposed-private-keys-and-passwords-for-the-governments-jamcovid-app-and-website"
         }
     },
     {
@@ -63,13 +92,15 @@
         }
     },
     {
-        "target":" Massy Jamaica Distribution Limited",
+        "target": "Massy Jamaica Distribution Limited",
         "year": 2022,
         "type": "Ransomware",
         "records": "~705,000",
         "source": {
             "Jamaica Gleaner": "https://jamaica-gleaner.com/article/esponsored/20221017/massys-ransomware-attack-exposes-consumers-and-companies",
-            "Red Packet Security": "https://www.redpacketsecurity.com/lockbit-3-0-ransomware-victim-hdhopwood-com"
+            "Red Packet Security": "https://www.redpacketsecurity.com/lockbit-3-0-ransomware-victim-hdhopwood-com",
+            "Our Today": "https://our.today/jacirt-to-assist-serha-in-recent-data-breach",
+            "Screenshot": "https://drive.google.com/file/d/11JxUO8WxH0a4Rk8uE57Yk_wxlOG3hPRI"
         }
     },
     {
@@ -78,7 +109,11 @@
         "type": "Ransomware",
         "records": "Unknown",
         "source": {
-            "Jamaica Gleaner": "https://jamaica-gleaner.com/article/lead-stories/20220128/update-hackers-hold-ncu-ransom"
+            "Jamaica Gleaner": "https://jamaica-gleaner.com/article/lead-stories/20220128/update-hackers-hold-ncu-ransom",
+            "Jamaica Gleaner (2)": "https://jamaica-gleaner.com/article/lead-stories/20220209/ransomware-attack-less-disruptive-earlier-thought-ncu-says",
+            "Nationwide News Network": "https://nationwideradiojm.com/ncu-says-cyber-attacker-remains-unidentified",
+            "Cayman Marl Road": "https://caymanmarlroad.com/2022/01/28/hackers-hold-jamaican-university-ransom",
+            "United Students Movement": "https://usm.ncu.edu.jm/ncu-hit-with-cyberattack"
         }
     },
     {
@@ -87,7 +122,8 @@
         "type": "Ransomware",
         "records": "Unknown",
         "source": {
-            "Red Packet Security": "https://www.redpacketsecurity.com/lockbit-3-0-ransomware-victim-rhotelja-com"
+            "Red Packet Security": "https://www.redpacketsecurity.com/lockbit-3-0-ransomware-victim-rhotelja-com",
+            "Screenshot": "https://drive.google.com/file/d/1kVaeHgGusETpgEX60NllT0LzyypoboHs"
         }
     },
     {
@@ -110,7 +146,7 @@
         "source": {
             "Jamaica Observer": "https://www.jamaicaobserver.com/latest-news/opm-hit-by-cyberattack",
             "Jamaica Gleaner": "https://jamaica-gleaner.com/article/news/20230216/office-prime-minister-hit-cyberattack",
-            "Radio Jamaica": "http://radiojamaicanewsonline.com/local/office-of-the-prime-minister-hit-by-cyberattack",
+            "Radio Jamaica News": "http://radiojamaicanewsonline.com/local/office-of-the-prime-minister-hit-by-cyberattack",
             "Caribbean National Weekly": "https://www.caribbeannationalweekly.com/caribbean-breaking-news-featured/office-of-the-prime-minister-in-jamaica-hit-by-cyberattack"
         }
     },
@@ -123,9 +159,10 @@
             "Jamaica Observer": "https://www.jamaicaobserver.com/business/under-attack",
             "Jamaica Observer (2)": "https://www.jamaicaobserver.com/business/no-ransom-paid",
             "Red Packet Security": "https://www.redpacketsecurity.com/play-ransomware-victim-mayberry-investments",
-            "Jamaica Gleaner": "http://jamaica.loopnews.com/content/mayberry-investments-targeted-cyberattack",
+            "Jamaica Gleaner": "https://jamaica-gleaner.com/article/business/20230606/mayberry-confirms-cyberattack-its-systems",
             "Jamaica Gleaner (2)": "https://jamaica-gleaner.com/article/lead-stories/20230607/mayberry-clients-urged-increase-vigilance-after-cyberattack",
             "Loop News": "http://jamaica.loopnews.com/content/mayberry-investments-targeted-cyberattack",
+            "Radio Jamaica News": "http://radiojamaicanewsonline.com/business/mayberry-says-hackers-did-not-access-client-accounts",
             "Screenshot": "https://drive.google.com/file/d/1wnAsOnUSL7K02CgoeH5UqP-xnQtIkCLG"
         }
     },
@@ -138,7 +175,7 @@
             "Twitter Post": "https://twitter.com/mnsgovjm/status/1667858108343808000",
             "Jamaica Observer": "https://www.jamaicaobserver.com/latest-news/jamaicaeye-hit-by-cyber-attack-security-ministry",
             "Jamaica Gleaner": "https://jamaica-gleaner.com/article/lead-stories/20230612/jamaicaeye-hack-heightens-concerns-over-security-nations-digital",
-            "RJR News": "http://radiojamaicanewsonline.com/local/concern-raised-about-monitoring-of-govt-websites-after-jamaicaeye-hacked",
+            "Radio Jamaica News": "http://radiojamaicanewsonline.com/local/concern-raised-about-monitoring-of-govt-websites-after-jamaicaeye-hacked",
             "Loop News": "https://jamaica.loopnews.com/content/cyber-incident-affects-access-jamaicaeye-website",
             "Nationwide News Network": "https://nationwideradiojm.com/investigation-underway-into-jamaica-eye-cyber-attack",
             "Our Today": "https://our.today/national-security-ministry-confirms-cyber-incident-with-jamaicaeye-website",
@@ -149,13 +186,24 @@
     {
         "target": "Jamaica Observer",
         "year": 2023,
-        "type": "Hack",
+        "type": "Social Media Hijack",
         "records": "Unknown",
         "source": {
             "Screenshot 1": "https://drive.google.com/file/d/1yfc8YFLy0c6MhX9lkDm3yBzcr0FOVQOQ",
             "Screenshot 2": "https://drive.google.com/file/d/1FovRxTpiSa0BQf3gPmAi7hoTflR7bLYS",
             "Jamaica Observer": "https://www.jamaicaobserver.com/latest-news/observer-detects-suspicious-activities-on-social-media-platforms-suspends-postings",
             "Nationwide News Network": "https://nationwideradiojm.com/twitter-hack-forces-jamaica-observer-to-suspend-social-media-activity"
+        }
+    },
+    {
+        "target": "The Institute of Caribbean Studies (UWI Mona)",
+        "year": 2023,
+        "type": "Social Media Hijack",
+        "records": "Unknown",
+        "source": {
+            "Screenshot 1": "https://drive.google.com/file/d/1CR5XipeCu5rXJ2qSkaWJRXqusk2VvgLR",
+            "Screenshot 2": "https://drive.google.com/file/d/1Dq_017muqxOlJmv8C2j2IydEv16wgLRN",
+            "Screenshot 3": "https://drive.google.com/file/d/1K6u4zKTGclCHWjARqxu6B9sA_59a7cEg"
         }
     }
 

@@ -23,7 +23,11 @@ It should be in this format:
     year: 20xx
     type: Event (Hack etc)
     records: Number of records affected
-    source: Link to some news publication.
+    source: {
+      "source": "Link to source.",
+      "source (2)": "Link to the second source.",
+      "some other source": "Link to some other source."
+    }
 }
 ---
 ```
