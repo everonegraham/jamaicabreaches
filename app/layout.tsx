@@ -4,6 +4,7 @@ import { Metadata } from "next"
 import { siteConfig } from "@/config/site"
 import { fontSans } from "@/lib/fonts"
 import { cn } from "@/lib/utils"
+import { Analytics } from '@vercel/analytics/react';
 import { SiteHeader } from "@/components/site-header"
 import { ThemeProvider } from "@/components/theme-provider"
 import { SiteFooter } from "@/components/site-footer"
@@ -43,6 +44,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
             <div className="relative  flex min-h-screen flex-col">
               <SiteHeader />
               <div className="flex-1">{children}</div>
+              <Analytics />
               <SiteFooter />
             </div>
           </ThemeProvider>
