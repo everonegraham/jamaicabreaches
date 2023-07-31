@@ -212,7 +212,8 @@
         "type": "Social Media Hijack",
         "records": "Unknown",
         "source": {
-            "Newsletter": "https://us10.campaign-archive.com/?e=66a9683232&u=eb8cd998e4048da34306c76f1&id=b78ab544ea"
+            "Newsletter 1": "https://us10.campaign-archive.com/?u=eb8cd998e4048da34306c76f1&id=b78ab544ea",
+            "Newsletter 2": "https://us10.campaign-archive.com/?u=eb8cd998e4048da34306c76f1&id=10e5f4cde1"
         }
     }
 
