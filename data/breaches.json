@@ -215,6 +215,26 @@
             "Newsletter 1": "https://us10.campaign-archive.com/?u=eb8cd998e4048da34306c76f1&id=b78ab544ea",
             "Newsletter 2": "https://us10.campaign-archive.com/?u=eb8cd998e4048da34306c76f1&id=10e5f4cde1"
         }
+    },
+    {
+        "target": "Financial Services Commission (FSC)",
+        "year": 2023,
+        "type": "'Cyber Event'",
+        "records": "Unknown",
+        "source": {
+            "Twitter Post": "https://twitter.com/FSCJamaica/status/1699518209714426223",
+            "Jamaica Gleaner": "https://jamaica-gleaner.com/article/news/20230906/cyber-attack-financial-services-commission",
+            "Jamaica Observer": "https://www.jamaicaobserver.com/latest-news/fsc-reports-cyber-breach"
+        }   
+    },
+    {
+        "target": "Jamaica Inn",
+        "year": 2023,
+        "type": "Ransomware",
+        "records": "Unknown",
+        "source": {
+            "Screenshot": "https://drive.google.com/file/d/1pZ_Y0ySHgKg3ZW5tCADiIeyASz1EhMOh"
+        }   
     }
 
 ]
