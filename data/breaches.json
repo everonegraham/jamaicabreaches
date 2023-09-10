@@ -1,69 +1,156 @@
 [
     {
-        "target": "Digicel",
-        "year": 2009,
-        "type": "Hack",
-        "records": "Unknown",
-        "source": {
-            "Radio Jamaica News": "http://radiojamaicanewsonline.com/local/credit-scam-mastermind-denied-bail"
-        }
-    },
-    {
-        "target": "Digicel",
-        "year": 2013,
-        "type": "Hack",
-        "records": "Unknown",
-        "source": {
-            "Jamaica Gleaner": "https://jamaica-gleaner.com/gleaner/20130126/lead/lead1.html"
-        }
-    },
-    {   
-        "target": "Tax Administration of Jamaica",
-        "year": 2013,
-        "type": "Hack",
-        "records": "Unknown",
-        "source": {
-            "Jamaica Gleaner": "https://jamaica-gleaner.com/gleaner/20120629/lead/lead5.html"
-        }
-    },
-    {   
-        "target": "Office of the Director of Public Prosecutions",
-        "year": 2013,
-        "type": "Hack",
-        "records": "Unknown",
-        "source": {
-            "Jamaica Gleaner": "https://jamaica-gleaner.com/power/42693"
-        }
-    },
-    {
-        "target": "SchoolManagerJa",
-        "year": 2017,
+        "target": "Jamaica Inn",
+        "year": 2023,
         "type": "Ransomware",
-        "records":"~14,000",
+        "records": "Unknown",
         "source": {
-            "Jamaica Gleaner": "https://jamaica-gleaner.com/article/lead-stories/20170430/us5000-or-else-hackers-hijack-data-16-jamaican-schools-and-demand"
+            "Screenshot": "https://drive.google.com/file/d/1pZ_Y0ySHgKg3ZW5tCADiIeyASz1EhMOh"
+        }   
+    },
+    {
+        "target": "Financial Services Commission (FSC)",
+        "year": 2023,
+        "type": "'Cyber Event'",
+        "records": "Unknown",
+        "source": {
+            "Twitter Post": "https://twitter.com/FSCJamaica/status/1699518209714426223",
+            "Jamaica Gleaner": "https://jamaica-gleaner.com/article/news/20230906/cyber-attack-financial-services-commission",
+            "Jamaica Observer": "https://www.jamaicaobserver.com/latest-news/fsc-reports-cyber-breach"
+        }   
+    },
+    {
+        "target": "Kalilah Reynolds Media",
+        "year": 2023,
+        "type": "Social Media Hijack",
+        "records": "Unknown",
+        "source": {
+            "Newsletter 1": "https://us10.campaign-archive.com/?u=eb8cd998e4048da34306c76f1&id=b78ab544ea",
+            "Newsletter 2": "https://us10.campaign-archive.com/?u=eb8cd998e4048da34306c76f1&id=10e5f4cde1"
         }
     },
     {
-        "target": "Jamaica Public Service Company",
-        "year": 2020,
-        "type": "Exposed Data",
+        "target": "The Institute of Caribbean Studies (UWI Mona)",
+        "year": 2023,
+        "type": "Social Media Hijack",
         "records": "Unknown",
         "source": {
-            "Jamaica Gleaner": "https://jamaica-gleaner.com/article/lead-stories/20221023/left-dark"
+            "Screenshot 1": "https://drive.google.com/file/d/1CR5XipeCu5rXJ2qSkaWJRXqusk2VvgLR",
+            "Screenshot 2": "https://drive.google.com/file/d/1Dq_017muqxOlJmv8C2j2IydEv16wgLRN",
+            "Screenshot 3": "https://drive.google.com/file/d/1K6u4zKTGclCHWjARqxu6B9sA_59a7cEg"
+        }
+    },
+    {
+        "target": "Jamaica Observer",
+        "year": 2023,
+        "type": "Social Media Hijack",
+        "records": "Unknown",
+        "source": {
+            "Screenshot 1": "https://drive.google.com/file/d/1yfc8YFLy0c6MhX9lkDm3yBzcr0FOVQOQ",
+            "Screenshot 2": "https://drive.google.com/file/d/1FovRxTpiSa0BQf3gPmAi7hoTflR7bLYS",
+            "Jamaica Observer": "https://www.jamaicaobserver.com/latest-news/observer-detects-suspicious-activities-on-social-media-platforms-suspends-postings",
+            "Nationwide News Network": "https://nationwideradiojm.com/twitter-hack-forces-jamaica-observer-to-suspend-social-media-activity"
+        }
+    },
+    {
+        "target": "JamaicaEye",
+        "year": 2023,
+        "type": "Hack",
+        "records": "Unknown",
+        "source": {
+            "Twitter Post": "https://twitter.com/mnsgovjm/status/1667858108343808000",
+            "Jamaica Observer": "https://www.jamaicaobserver.com/latest-news/jamaicaeye-hit-by-cyber-attack-security-ministry",
+            "Jamaica Gleaner": "https://jamaica-gleaner.com/article/lead-stories/20230612/jamaicaeye-hack-heightens-concerns-over-security-nations-digital",
+            "Radio Jamaica News": "http://radiojamaicanewsonline.com/local/concern-raised-about-monitoring-of-govt-websites-after-jamaicaeye-hacked",
+            "Loop News": "https://jamaica.loopnews.com/content/cyber-incident-affects-access-jamaicaeye-website",
+            "Nationwide News Network": "https://nationwideradiojm.com/investigation-underway-into-jamaica-eye-cyber-attack",
+            "Our Today": "https://our.today/national-security-ministry-confirms-cyber-incident-with-jamaicaeye-website",
+            "Irie FM": "https://www.iriefm.net/jamaicaeye-website-affected-by-cyber-attack"
+        }
+        
+    },
+    {
+        "target": "Mayberry Investments",
+        "year": 2023,
+        "type": "Ransomware",
+        "records": "Unknown",
+        "source": {
+            "Jamaica Observer": "https://www.jamaicaobserver.com/business/under-attack",
+            "Jamaica Observer (2)": "https://www.jamaicaobserver.com/business/no-ransom-paid",
+            "Red Packet Security": "https://www.redpacketsecurity.com/play-ransomware-victim-mayberry-investments",
+            "Jamaica Gleaner": "https://jamaica-gleaner.com/article/business/20230606/mayberry-confirms-cyberattack-its-systems",
+            "Jamaica Gleaner (2)": "https://jamaica-gleaner.com/article/lead-stories/20230607/mayberry-clients-urged-increase-vigilance-after-cyberattack",
+            "Loop News": "http://jamaica.loopnews.com/content/mayberry-investments-targeted-cyberattack",
+            "Radio Jamaica News": "http://radiojamaicanewsonline.com/business/mayberry-says-hackers-did-not-access-client-accounts",
+            "Screenshot": "https://drive.google.com/file/d/1wnAsOnUSL7K02CgoeH5UqP-xnQtIkCLG"
+        }
+    },
+    {
+        "target": "Office of the Prime Minister",
+        "year": 2023,
+        "type": "Unknown",
+        "records": "Unknown",
+        "source": {
+            "Jamaica Observer": "https://www.jamaicaobserver.com/latest-news/opm-hit-by-cyberattack",
+            "Jamaica Gleaner": "https://jamaica-gleaner.com/article/news/20230216/office-prime-minister-hit-cyberattack",
+            "Radio Jamaica News": "http://radiojamaicanewsonline.com/local/office-of-the-prime-minister-hit-by-cyberattack",
+            "Caribbean National Weekly": "https://www.caribbeannationalweekly.com/caribbean-breaking-news-featured/office-of-the-prime-minister-in-jamaica-hit-by-cyberattack"
+        }
+    },
+    {
+        "target": "South East Regional Health Authority",
+        "year": 2023,
+        "type": "Ransomware",
+        "records": "Unknown",
+        "source": {
+            "Jamaica Observer": "https://www.jamaicaobserver.com/latest-news/ict-other-services-impacted-by-cyberattack-serha",
+            "Jamaica Observer (2)": "https://www.jamaicaobserver.com/latest-news/pnp-calls-on-tufton-to-address-alleged-data-breach-at-serha",
+            "Jamaica Gleaner": "https://jamaica-gleaner.com/article/news/20230126/more-information-needed-serha-cyberattack",
+            "Loop News": "https://jamaica.loopnews.com/content/health-authority-admits-cyberattack-opposition-wants-details"
+        }
+    },
+    {
+        "target": "R Hotel Jamaica",
+        "year": 2022,
+        "type": "Ransomware",
+        "records": "Unknown",
+        "source": {
+            "Red Packet Security": "https://www.redpacketsecurity.com/lockbit-3-0-ransomware-victim-rhotelja-com",
+            "Screenshot": "https://drive.google.com/file/d/1kVaeHgGusETpgEX60NllT0LzyypoboHs"
+        }
+    },
+    {
+        "target": "Northern Caribbean University",
+        "year": 2022,
+        "type": "Ransomware",
+        "records": "Unknown",
+        "source": {
+            "Jamaica Gleaner": "https://jamaica-gleaner.com/article/lead-stories/20220128/update-hackers-hold-ncu-ransom",
+            "Jamaica Gleaner (2)": "https://jamaica-gleaner.com/article/lead-stories/20220209/ransomware-attack-less-disruptive-earlier-thought-ncu-says",
+            "Nationwide News Network": "https://nationwideradiojm.com/ncu-says-cyber-attacker-remains-unidentified",
+            "Cayman Marl Road": "https://caymanmarlroad.com/2022/01/28/hackers-hold-jamaican-university-ransom",
+            "United Students Movement": "https://usm.ncu.edu.jm/ncu-hit-with-cyberattack"
+        }
+    },
+    {
+        "target": "Massy Jamaica Distribution Limited",
+        "year": 2022,
+        "type": "Ransomware",
+        "records": "~705,000",
+        "source": {
+            "Jamaica Gleaner": "https://jamaica-gleaner.com/article/esponsored/20221017/massys-ransomware-attack-exposes-consumers-and-companies",
+            "Red Packet Security": "https://www.redpacketsecurity.com/lockbit-3-0-ransomware-victim-hdhopwood-com",
+            "Our Today": "https://our.today/jacirt-to-assist-serha-in-recent-data-breach",
+            "Screenshot": "https://drive.google.com/file/d/11JxUO8WxH0a4Rk8uE57Yk_wxlOG3hPRI"
         }
     },
     {
         "target": "JamCovid App",
         "year": 2021,
         "type": "Exposed Data",
-        "records": "~425,000",
+        "records": "~500,000",
         "source": {
-            "Tech Crunch": "https://techcrunch.com/2021/02/17/jamaica-immigration-travelers-data-exposed",
-            "Jamaica Gleaner": "https://jamaica-gleaner.com/article/lead-stories/20210218/data-breach-blowback-jamcovid-exposure-treasure-trove-scammers-says",
-            "Jamaica Observer": "https://www.jamaicaobserver.com/latest-news/security-ministry-says-it-corrected-security-vulnerability-on-jamcovid-19-app",
-            "Radio Jamaica News": "http://radiojamaicanewsonline.com/local/immigration-data-of-thousands-exposed-on-jamcovid-19-website",
-            "Nationwide News Network": "https://nationwideradiojm.com/govt-faces-scrutiny-over-handling-of-jamcovid-app-data-breach"
+            "Tech Crunch": "https://techcrunch.com/2021/02/26/amber-group-jamcovid-data-exposed"
         }
     },
     {
@@ -86,155 +173,82 @@
         "target": "JamCovid App",
         "year": 2021,
         "type": "Exposed Data",
-        "records": "~500,000",
+        "records": "~425,000",
         "source": {
-            "Tech Crunch": "https://techcrunch.com/2021/02/26/amber-group-jamcovid-data-exposed"
+            "Tech Crunch": "https://techcrunch.com/2021/02/17/jamaica-immigration-travelers-data-exposed",
+            "Jamaica Gleaner": "https://jamaica-gleaner.com/article/lead-stories/20210218/data-breach-blowback-jamcovid-exposure-treasure-trove-scammers-says",
+            "Jamaica Observer": "https://www.jamaicaobserver.com/latest-news/security-ministry-says-it-corrected-security-vulnerability-on-jamcovid-19-app",
+            "Radio Jamaica News": "http://radiojamaicanewsonline.com/local/immigration-data-of-thousands-exposed-on-jamcovid-19-website",
+            "Nationwide News Network": "https://nationwideradiojm.com/govt-faces-scrutiny-over-handling-of-jamcovid-app-data-breach"
         }
     },
     {
-        "target": "Massy Jamaica Distribution Limited",
-        "year": 2022,
-        "type": "Ransomware",
-        "records": "~705,000",
-        "source": {
-            "Jamaica Gleaner": "https://jamaica-gleaner.com/article/esponsored/20221017/massys-ransomware-attack-exposes-consumers-and-companies",
-            "Red Packet Security": "https://www.redpacketsecurity.com/lockbit-3-0-ransomware-victim-hdhopwood-com",
-            "Our Today": "https://our.today/jacirt-to-assist-serha-in-recent-data-breach",
-            "Screenshot": "https://drive.google.com/file/d/11JxUO8WxH0a4Rk8uE57Yk_wxlOG3hPRI"
-        }
-    },
-    {
-        "target": "Northern Caribbean University",
-        "year": 2022,
-        "type": "Ransomware",
+        "target": "Jamaica Public Service Company",
+        "year": 2020,
+        "type": "Exposed Data",
         "records": "Unknown",
         "source": {
-            "Jamaica Gleaner": "https://jamaica-gleaner.com/article/lead-stories/20220128/update-hackers-hold-ncu-ransom",
-            "Jamaica Gleaner (2)": "https://jamaica-gleaner.com/article/lead-stories/20220209/ransomware-attack-less-disruptive-earlier-thought-ncu-says",
-            "Nationwide News Network": "https://nationwideradiojm.com/ncu-says-cyber-attacker-remains-unidentified",
-            "Cayman Marl Road": "https://caymanmarlroad.com/2022/01/28/hackers-hold-jamaican-university-ransom",
-            "United Students Movement": "https://usm.ncu.edu.jm/ncu-hit-with-cyberattack"
+            "Jamaica Gleaner": "https://jamaica-gleaner.com/article/lead-stories/20221023/left-dark"
         }
     },
     {
-        "target": "R Hotel Jamaica",
-        "year": 2022,
+        "target": "SchoolManagerJa",
+        "year": 2017,
         "type": "Ransomware",
-        "records": "Unknown",
+        "records":"~14,000",
         "source": {
-            "Red Packet Security": "https://www.redpacketsecurity.com/lockbit-3-0-ransomware-victim-rhotelja-com",
-            "Screenshot": "https://drive.google.com/file/d/1kVaeHgGusETpgEX60NllT0LzyypoboHs"
+            "Jamaica Gleaner": "https://jamaica-gleaner.com/article/lead-stories/20170430/us5000-or-else-hackers-hijack-data-16-jamaican-schools-and-demand"
         }
     },
-    {
-        "target": "South East Regional Health Authority",
-        "year": 2023,
-        "type": "Ransomware",
-        "records": "Unknown",
-        "source": {
-            "Jamaica Observer": "https://www.jamaicaobserver.com/latest-news/ict-other-services-impacted-by-cyberattack-serha",
-            "Jamaica Observer (2)": "https://www.jamaicaobserver.com/latest-news/pnp-calls-on-tufton-to-address-alleged-data-breach-at-serha",
-            "Jamaica Gleaner": "https://jamaica-gleaner.com/article/news/20230126/more-information-needed-serha-cyberattack",
-            "Loop News": "https://jamaica.loopnews.com/content/health-authority-admits-cyberattack-opposition-wants-details"
-        }
-    },
-    {
-        "target": "Office of the Prime Minister",
-        "year": 2023,
-        "type": "Unknown",
-        "records": "Unknown",
-        "source": {
-            "Jamaica Observer": "https://www.jamaicaobserver.com/latest-news/opm-hit-by-cyberattack",
-            "Jamaica Gleaner": "https://jamaica-gleaner.com/article/news/20230216/office-prime-minister-hit-cyberattack",
-            "Radio Jamaica News": "http://radiojamaicanewsonline.com/local/office-of-the-prime-minister-hit-by-cyberattack",
-            "Caribbean National Weekly": "https://www.caribbeannationalweekly.com/caribbean-breaking-news-featured/office-of-the-prime-minister-in-jamaica-hit-by-cyberattack"
-        }
-    },
-    {
-        "target": "Mayberry Investments",
-        "year": 2023,
-        "type": "Ransomware",
-        "records": "Unknown",
-        "source": {
-            "Jamaica Observer": "https://www.jamaicaobserver.com/business/under-attack",
-            "Jamaica Observer (2)": "https://www.jamaicaobserver.com/business/no-ransom-paid",
-            "Red Packet Security": "https://www.redpacketsecurity.com/play-ransomware-victim-mayberry-investments",
-            "Jamaica Gleaner": "https://jamaica-gleaner.com/article/business/20230606/mayberry-confirms-cyberattack-its-systems",
-            "Jamaica Gleaner (2)": "https://jamaica-gleaner.com/article/lead-stories/20230607/mayberry-clients-urged-increase-vigilance-after-cyberattack",
-            "Loop News": "http://jamaica.loopnews.com/content/mayberry-investments-targeted-cyberattack",
-            "Radio Jamaica News": "http://radiojamaicanewsonline.com/business/mayberry-says-hackers-did-not-access-client-accounts",
-            "Screenshot": "https://drive.google.com/file/d/1wnAsOnUSL7K02CgoeH5UqP-xnQtIkCLG"
-        }
-    },
-    {
-        "target": "JamaicaEye",
-        "year": 2023,
+    {   
+        "target": "Office of the Director of Public Prosecutions",
+        "year": 2013,
         "type": "Hack",
         "records": "Unknown",
         "source": {
-            "Twitter Post": "https://twitter.com/mnsgovjm/status/1667858108343808000",
-            "Jamaica Observer": "https://www.jamaicaobserver.com/latest-news/jamaicaeye-hit-by-cyber-attack-security-ministry",
-            "Jamaica Gleaner": "https://jamaica-gleaner.com/article/lead-stories/20230612/jamaicaeye-hack-heightens-concerns-over-security-nations-digital",
-            "Radio Jamaica News": "http://radiojamaicanewsonline.com/local/concern-raised-about-monitoring-of-govt-websites-after-jamaicaeye-hacked",
-            "Loop News": "https://jamaica.loopnews.com/content/cyber-incident-affects-access-jamaicaeye-website",
-            "Nationwide News Network": "https://nationwideradiojm.com/investigation-underway-into-jamaica-eye-cyber-attack",
-            "Our Today": "https://our.today/national-security-ministry-confirms-cyber-incident-with-jamaicaeye-website",
-            "Irie FM": "https://www.iriefm.net/jamaicaeye-website-affected-by-cyber-attack"
+            "Jamaica Gleaner": "https://jamaica-gleaner.com/power/42693"
         }
-        
     },
-    {
-        "target": "Jamaica Observer",
-        "year": 2023,
-        "type": "Social Media Hijack",
+    {   
+        "target": "Tax Administration of Jamaica",
+        "year": 2013,
+        "type": "Hack",
         "records": "Unknown",
         "source": {
-            "Screenshot 1": "https://drive.google.com/file/d/1yfc8YFLy0c6MhX9lkDm3yBzcr0FOVQOQ",
-            "Screenshot 2": "https://drive.google.com/file/d/1FovRxTpiSa0BQf3gPmAi7hoTflR7bLYS",
-            "Jamaica Observer": "https://www.jamaicaobserver.com/latest-news/observer-detects-suspicious-activities-on-social-media-platforms-suspends-postings",
-            "Nationwide News Network": "https://nationwideradiojm.com/twitter-hack-forces-jamaica-observer-to-suspend-social-media-activity"
+            "Jamaica Gleaner": "https://jamaica-gleaner.com/gleaner/20120629/lead/lead5.html"
         }
     },
     {
-        "target": "The Institute of Caribbean Studies (UWI Mona)",
-        "year": 2023,
-        "type": "Social Media Hijack",
+        "target": "Digicel",
+        "year": 2013,
+        "type": "Hack",
         "records": "Unknown",
         "source": {
-            "Screenshot 1": "https://drive.google.com/file/d/1CR5XipeCu5rXJ2qSkaWJRXqusk2VvgLR",
-            "Screenshot 2": "https://drive.google.com/file/d/1Dq_017muqxOlJmv8C2j2IydEv16wgLRN",
-            "Screenshot 3": "https://drive.google.com/file/d/1K6u4zKTGclCHWjARqxu6B9sA_59a7cEg"
+            "Jamaica Gleaner": "https://jamaica-gleaner.com/gleaner/20130126/lead/lead1.html"
         }
     },
     {
-        "target": "Kalilah Reynolds Media",
-        "year": 2023,
-        "type": "Social Media Hijack",
+        "target": "Digicel",
+        "year": 2009,
+        "type": "Hack",
         "records": "Unknown",
         "source": {
-            "Newsletter 1": "https://us10.campaign-archive.com/?u=eb8cd998e4048da34306c76f1&id=b78ab544ea",
-            "Newsletter 2": "https://us10.campaign-archive.com/?u=eb8cd998e4048da34306c76f1&id=10e5f4cde1"
+            "Radio Jamaica News": "http://radiojamaicanewsonline.com/local/credit-scam-mastermind-denied-bail"
         }
-    },
-    {
-        "target": "Financial Services Commission (FSC)",
-        "year": 2023,
-        "type": "'Cyber Event'",
-        "records": "Unknown",
-        "source": {
-            "Twitter Post": "https://twitter.com/FSCJamaica/status/1699518209714426223",
-            "Jamaica Gleaner": "https://jamaica-gleaner.com/article/news/20230906/cyber-attack-financial-services-commission",
-            "Jamaica Observer": "https://www.jamaicaobserver.com/latest-news/fsc-reports-cyber-breach"
-        }   
-    },
-    {
-        "target": "Jamaica Inn",
-        "year": 2023,
-        "type": "Ransomware",
-        "records": "Unknown",
-        "source": {
-            "Screenshot": "https://drive.google.com/file/d/1pZ_Y0ySHgKg3ZW5tCADiIeyASz1EhMOh"
-        }   
     }
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
 
 ]
