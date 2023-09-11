@@ -5,13 +5,14 @@
         "type": "Ransomware",
         "records": "Unknown",
         "source": {
-            "Screenshot": "https://drive.google.com/file/d/1pZ_Y0ySHgKg3ZW5tCADiIeyASz1EhMOh"
+            "Screenshot 1": "https://drive.google.com/file/d/1pZ_Y0ySHgKg3ZW5tCADiIeyASz1EhMOh",
+            "Screenshot 2": "https://drive.google.com/file/d/1P8-Bin2z_Tgrvd6WukCAMaxxvsMy1o96"
         }   
     },
     {
         "target": "Financial Services Commission (FSC)",
         "year": 2023,
-        "type": "'Cyber Event'",
+        "type": "Ransomware",
         "records": "Unknown",
         "source": {
             "Twitter Post": "https://twitter.com/FSCJamaica/status/1699518209714426223",
