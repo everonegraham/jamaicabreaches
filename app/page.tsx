@@ -31,13 +31,14 @@ export default async function IndexPage() {
             rel="noreferrer"
             href={siteConfig.links.github}
             className={buttonVariants()}
+            passHref
           >
            <Github className="mr-2 h-4 w-4" /> Contribute
           </Link>
         </div>
       </div>
       <div>
-        <div className="overflow-x flex h-full flex-1 flex-col">
+        <div className="overflow-x flex h-full flex-col">
           <DataTable columns={columns} data={data} />
         </div>
       </div>

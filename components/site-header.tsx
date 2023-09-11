@@ -22,7 +22,7 @@ export function SiteHeader() {
 
         {/* Nav Start */}
         <div className="mr-4 md:flex">
-          <Link href="/" className="mr-6 flex items-center space-x-2">
+          <Link href="/" className="mr-6 flex items-center space-x-2" passHref>
             <span className="font-bold sm:inline-block">{siteConfig.name}</span>
           </Link>
           {siteConfig.mainNav?.length ? (
@@ -51,6 +51,7 @@ export function SiteHeader() {
               href={siteConfig.links.github}
               target="_blank"
               rel="noreferrer"
+              passHref
             >
               <div
                 className={buttonVariants({
@@ -66,6 +67,7 @@ export function SiteHeader() {
               href={siteConfig.links.twitter}
               target="_blank"
               rel="noreferrer"
+              passHref
             >
               <div
                 className={buttonVariants({
@@ -119,6 +121,7 @@ export function SiteHeader() {
                     href={siteConfig.links.github}
                     target="_blank"
                     rel="noreferrer"
+                    passHref
                   >
                     <div
                       className={buttonVariants({
@@ -134,6 +137,7 @@ export function SiteHeader() {
                     href={siteConfig.links.twitter}
                     target="_blank"
                     rel="noreferrer"
+                    passHref
                   >
                     <div
                       className={buttonVariants({
