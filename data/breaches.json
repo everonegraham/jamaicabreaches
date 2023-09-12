@@ -1,5 +1,15 @@
 [
     {
+        "target": "Derrimon Tradings Co. Ltd.",
+        "year": 2023,
+        "type": "Ransomware",
+        "records": "Unknown",
+        "source": {
+            "Twitter Post": "https://twitter.com/FalconFeedsio/status/1701531215914844581",
+            "Screenshot": "https://drive.google.com/file/d/1cMZOaDPvBsOgaXzzQVTwIdV6_HC3HJoT"
+        }   
+    },
+    {
         "target": "Jamaica Inn",
         "year": 2023,
         "type": "Ransomware",
