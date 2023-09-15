@@ -17,8 +17,8 @@
         "type": "Ransomware",
         "records": "Unknown",
         "source": {
-            "Screenshot 1": "https://drive.google.com/file/d/1pZ_Y0ySHgKg3ZW5tCADiIeyASz1EhMOh",
-            "Screenshot 2": "https://drive.google.com/file/d/1P8-Bin2z_Tgrvd6WukCAMaxxvsMy1o96"
+            "Screenshot (1)": "https://drive.google.com/file/d/1pZ_Y0ySHgKg3ZW5tCADiIeyASz1EhMOh",
+            "Screenshot (2)": "https://drive.google.com/file/d/1P8-Bin2z_Tgrvd6WukCAMaxxvsMy1o96"
         }   
     },
     {
@@ -27,9 +27,14 @@
         "type": "Ransomware",
         "records": "Unknown",
         "source": {
-            "Twitter Post": "https://twitter.com/FSCJamaica/status/1699518209714426223",
+            "Twitter Post (1)": "https://twitter.com/FSCJamaica/status/1699518209714426223",
+            "Press Release (1)":"https://drive.google.com/file/d/1BG_fGvhd8m7-hu2_PcA13XzxhAZAyXAY",
             "Jamaica Gleaner": "https://jamaica-gleaner.com/article/news/20230906/cyber-attack-financial-services-commission",
-            "Jamaica Observer": "https://www.jamaicaobserver.com/latest-news/fsc-reports-cyber-breach"
+            "Jamaica Observer": "https://www.jamaicaobserver.com/latest-news/fsc-reports-cyber-breach",
+            "Jamaica Gleaner (2)": "https://jamaica-gleaner.com/article/lead-stories/20230911/disaster-fsc",
+            "Screenshot":"https://drive.google.com/file/d/1vduq2yX9mLPKKwitk9MDRVqBanG8B9Hb",
+            "Twitter Post (2)": "https://x.com/FSCJamaica/status/1702540929712701746",
+            "Press Release (2)":"https://drive.google.com/file/d/1ZxkJv0TtQ-YAFaTgU6kebtb78QVjo1FN"
         }   
     },
     {
@@ -38,8 +43,8 @@
         "type": "Social Media Hijack",
         "records": "Unknown",
         "source": {
-            "Newsletter 1": "https://us10.campaign-archive.com/?u=eb8cd998e4048da34306c76f1&id=b78ab544ea",
-            "Newsletter 2": "https://us10.campaign-archive.com/?u=eb8cd998e4048da34306c76f1&id=10e5f4cde1"
+            "Newsletter (1)": "https://us10.campaign-archive.com/?u=eb8cd998e4048da34306c76f1&id=b78ab544ea",
+            "Newsletter (2)": "https://us10.campaign-archive.com/?u=eb8cd998e4048da34306c76f1&id=10e5f4cde1"
         }
     },
     {
@@ -48,9 +53,9 @@
         "type": "Social Media Hijack",
         "records": "Unknown",
         "source": {
-            "Screenshot 1": "https://drive.google.com/file/d/1CR5XipeCu5rXJ2qSkaWJRXqusk2VvgLR",
-            "Screenshot 2": "https://drive.google.com/file/d/1Dq_017muqxOlJmv8C2j2IydEv16wgLRN",
-            "Screenshot 3": "https://drive.google.com/file/d/1K6u4zKTGclCHWjARqxu6B9sA_59a7cEg"
+            "Screenshot (1)": "https://drive.google.com/file/d/1CR5XipeCu5rXJ2qSkaWJRXqusk2VvgLR",
+            "Screenshot (2)": "https://drive.google.com/file/d/1Dq_017muqxOlJmv8C2j2IydEv16wgLRN",
+            "Screenshot (3)": "https://drive.google.com/file/d/1K6u4zKTGclCHWjARqxu6B9sA_59a7cEg"
         }
     },
     {
@@ -59,8 +64,8 @@
         "type": "Social Media Hijack",
         "records": "Unknown",
         "source": {
-            "Screenshot 1": "https://drive.google.com/file/d/1yfc8YFLy0c6MhX9lkDm3yBzcr0FOVQOQ",
-            "Screenshot 2": "https://drive.google.com/file/d/1FovRxTpiSa0BQf3gPmAi7hoTflR7bLYS",
+            "Screenshot (1)": "https://drive.google.com/file/d/1yfc8YFLy0c6MhX9lkDm3yBzcr0FOVQOQ",
+            "Screenshot (2)": "https://drive.google.com/file/d/1FovRxTpiSa0BQf3gPmAi7hoTflR7bLYS",
             "Jamaica Observer": "https://www.jamaicaobserver.com/latest-news/observer-detects-suspicious-activities-on-social-media-platforms-suspends-postings",
             "Nationwide News Network": "https://nationwideradiojm.com/twitter-hack-forces-jamaica-observer-to-suspend-social-media-activity"
         }
@@ -249,19 +254,4 @@
             "Radio Jamaica News": "http://radiojamaicanewsonline.com/local/credit-scam-mastermind-denied-bail"
         }
     }
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
 ]
