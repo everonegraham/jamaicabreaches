@@ -1,5 +1,14 @@
 [
     {
+        "target": "PriceSmart",
+        "year": 2023,
+        "type": "Ransomware",
+        "records": "Unknown",
+        "source": {
+            "Screenshot": "https://drive.google.com/file/d/18F9e-0ciQ-blWpepQsePf3d5ZQ_u4YDX"
+        }   
+    },
+    {
         "target": "Courts",
         "year": 2023,
         "type": "Hacked",
