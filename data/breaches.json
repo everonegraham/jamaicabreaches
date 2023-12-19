@@ -1,5 +1,15 @@
 [
     {
+        "target": "PetroJam",
+        "year": 2023,
+        "type": "Ransomware",
+        "records": "Unknown",
+        "source": {
+            "Jamaica Gleaner": "https://jamaica-gleaner.com/article/news/20231219/petrojam-hacked-scale-unknown",
+            "Jamaica Star":"https://jamaica-star.com/article/news/20231219/petrojam-victim-cyber-incident"
+        }   
+    },
+    {
         "target": "PriceSmart",
         "year": 2023,
         "type": "Ransomware",
