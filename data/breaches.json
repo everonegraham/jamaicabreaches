@@ -1,5 +1,14 @@
 [
     {
+        "target": "IronRock Insurance Company",
+        "year": 2024,
+        "type": "Data Breach",
+        "records": "Unknown",
+        "source": {
+            "Jamaica Stock Exchange": "https://www.jamstockex.com/ironrock-insurance-co-ltd-roc-cyber-incident"
+        }   
+    },
+    {
         "target": "PetroJam",
         "year": 2023,
         "type": "Ransomware",
