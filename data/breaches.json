@@ -1,5 +1,14 @@
 [
     {
+        "target": "Bureau of Standards Jamaica",
+        "year": 2024,
+        "type": "Ransomware",
+        "records": "Unknown",
+        "source": {
+            "Jamaica Gleaner": "https://jamaica-gleaner.com/article/lead-stories/20240511/bsj-hit-cyberattack"
+        }   
+    },
+    {
         "target": "IronRock Insurance Company",
         "year": 2024,
         "type": "Data Breach",
