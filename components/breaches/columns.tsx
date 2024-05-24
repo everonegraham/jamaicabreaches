@@ -16,7 +16,6 @@ export type Breaches = {
   target: string
   year: number
   type: string
-  records: string
   source:{
     [key: string]: any
   };
@@ -65,10 +64,6 @@ export const columns: ColumnDef<Breaches>[] = [
           </Button>
         )
       },
-    },
-    {
-      accessorKey: "records",
-      header: "Records",
     },
     {
       accessorKey: "source",

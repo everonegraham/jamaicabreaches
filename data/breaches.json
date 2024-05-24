@@ -1,9 +1,16 @@
 [
     {
+        "target": "First Heritage Co-operative Credit Union",
+        "year": 2024,
+        "type": "Hacked",
+        "source": {
+            "Jamaica Observer": "https://www.jamaicaobserver.com/2024/05/24/fhc-advises-members-high-alert-cyber-incident"
+        }   
+    },
+    {
         "target": "Bureau of Standards Jamaica",
         "year": 2024,
         "type": "Ransomware",
-        "records": "Unknown",
         "source": {
             "Jamaica Gleaner": "https://jamaica-gleaner.com/article/lead-stories/20240511/bsj-hit-cyberattack"
         }   
@@ -12,7 +19,6 @@
         "target": "IronRock Insurance Company",
         "year": 2024,
         "type": "Data Breach",
-        "records": "Unknown",
         "source": {
             "Jamaica Stock Exchange": "https://www.jamstockex.com/ironrock-insurance-co-ltd-roc-cyber-incident",
             "Company Notice": "https://drive.google.com/file/d/1Bf2MpqqIZ57gHSp_9u2rNQZQDamaurjd"
@@ -22,7 +28,6 @@
         "target": "PetroJam",
         "year": 2023,
         "type": "Ransomware",
-        "records": "Unknown",
         "source": {
             "Jamaica Gleaner": "https://jamaica-gleaner.com/article/news/20231219/petrojam-hacked-scale-unknown",
             "Jamaica Star":"https://jamaica-star.com/article/news/20231219/petrojam-victim-cyber-incident"
@@ -32,7 +37,6 @@
         "target": "PriceSmart",
         "year": 2023,
         "type": "Ransomware",
-        "records": "Unknown",
         "source": {
             "Screenshot": "https://drive.google.com/file/d/18F9e-0ciQ-blWpepQsePf3d5ZQ_u4YDX"
         }   
@@ -41,7 +45,6 @@
         "target": "Courts",
         "year": 2023,
         "type": "Hacked",
-        "records": "Unknown",
         "source": {
             "Screenshot": "https://drive.google.com/file/d/18Cmq1KSm96GT3xd_xHbj2lpSBv26oN0C"
         }   
@@ -51,7 +54,6 @@
         "target": "Applekings Ja",
         "year": 2023,
         "type": "Hacked",
-        "records": "Unknown",
         "source": {
             "Screenshot": "https://drive.google.com/file/d/11fkzPoUsuGfGDuFScr3LxDaylpmidgdX"
         }   
@@ -60,7 +62,6 @@
         "target": "Derrimon Trading Co. Ltd.",
         "year": 2023,
         "type": "Ransomware",
-        "records": "Unknown",
         "source": {
             "Twitter Post": "https://twitter.com/FalconFeedsio/status/1701531215914844581",
             "Screenshot": "https://drive.google.com/file/d/1cMZOaDPvBsOgaXzzQVTwIdV6_HC3HJoT",
@@ -72,7 +73,6 @@
         "target": "Jamaica Inn",
         "year": 2023,
         "type": "Ransomware",
-        "records": "Unknown",
         "source": {
             "Screenshot (1)": "https://drive.google.com/file/d/1pZ_Y0ySHgKg3ZW5tCADiIeyASz1EhMOh",
             "Screenshot (2)": "https://drive.google.com/file/d/1P8-Bin2z_Tgrvd6WukCAMaxxvsMy1o96"
@@ -82,7 +82,6 @@
         "target": "Financial Services Commission (FSC)",
         "year": 2023,
         "type": "Ransomware",
-        "records": "Unknown",
         "source": {
             "Twitter Post (1)": "https://twitter.com/FSCJamaica/status/1699518209714426223",
             "Press Release (1)":"https://drive.google.com/file/d/1BG_fGvhd8m7-hu2_PcA13XzxhAZAyXAY",
@@ -98,7 +97,6 @@
         "target": "Kalilah Reynolds Media",
         "year": 2023,
         "type": "Social Media Hijack",
-        "records": "Unknown",
         "source": {
             "Newsletter (1)": "https://us10.campaign-archive.com/?u=eb8cd998e4048da34306c76f1&id=b78ab544ea",
             "Newsletter (2)": "https://us10.campaign-archive.com/?u=eb8cd998e4048da34306c76f1&id=10e5f4cde1"
@@ -108,7 +106,6 @@
         "target": "The Institute of Caribbean Studies (UWI Mona)",
         "year": 2023,
         "type": "Social Media Hijack",
-        "records": "Unknown",
         "source": {
             "Screenshot (1)": "https://drive.google.com/file/d/1CR5XipeCu5rXJ2qSkaWJRXqusk2VvgLR",
             "Screenshot (2)": "https://drive.google.com/file/d/1Dq_017muqxOlJmv8C2j2IydEv16wgLRN",
@@ -119,7 +116,6 @@
         "target": "Jamaica Observer",
         "year": 2023,
         "type": "Social Media Hijack",
-        "records": "Unknown",
         "source": {
             "Screenshot (1)": "https://drive.google.com/file/d/1yfc8YFLy0c6MhX9lkDm3yBzcr0FOVQOQ",
             "Screenshot (2)": "https://drive.google.com/file/d/1FovRxTpiSa0BQf3gPmAi7hoTflR7bLYS",
@@ -130,8 +126,7 @@
     {
         "target": "JamaicaEye",
         "year": 2023,
-        "type": "Hack",
-        "records": "Unknown",
+        "type": "Hacked",
         "source": {
             "Twitter Post": "https://twitter.com/mnsgovjm/status/1667858108343808000",
             "Jamaica Observer": "https://www.jamaicaobserver.com/latest-news/jamaicaeye-hit-by-cyber-attack-security-ministry",
@@ -148,7 +143,6 @@
         "target": "Mayberry Investments",
         "year": 2023,
         "type": "Ransomware",
-        "records": "Unknown",
         "source": {
             "Jamaica Observer": "https://www.jamaicaobserver.com/business/under-attack",
             "Jamaica Observer (2)": "https://www.jamaicaobserver.com/business/no-ransom-paid",
@@ -164,7 +158,6 @@
         "target": "Office of the Prime Minister",
         "year": 2023,
         "type": "Unknown",
-        "records": "Unknown",
         "source": {
             "Jamaica Observer": "https://www.jamaicaobserver.com/latest-news/opm-hit-by-cyberattack",
             "Jamaica Gleaner": "https://jamaica-gleaner.com/article/news/20230216/office-prime-minister-hit-cyberattack",
@@ -176,7 +169,6 @@
         "target": "South East Regional Health Authority",
         "year": 2023,
         "type": "Ransomware",
-        "records": "Unknown",
         "source": {
             "Jamaica Observer": "https://www.jamaicaobserver.com/latest-news/ict-other-services-impacted-by-cyberattack-serha",
             "Jamaica Observer (2)": "https://www.jamaicaobserver.com/latest-news/pnp-calls-on-tufton-to-address-alleged-data-breach-at-serha",
@@ -188,7 +180,6 @@
         "target": "R Hotel Jamaica",
         "year": 2022,
         "type": "Ransomware",
-        "records": "Unknown",
         "source": {
             "Red Packet Security": "https://www.redpacketsecurity.com/lockbit-3-0-ransomware-victim-rhotelja-com",
             "Screenshot": "https://drive.google.com/file/d/1kVaeHgGusETpgEX60NllT0LzyypoboHs"
@@ -198,7 +189,6 @@
         "target": "Northern Caribbean University",
         "year": 2022,
         "type": "Ransomware",
-        "records": "Unknown",
         "source": {
             "Jamaica Gleaner": "https://jamaica-gleaner.com/article/lead-stories/20220128/update-hackers-hold-ncu-ransom",
             "Jamaica Gleaner (2)": "https://jamaica-gleaner.com/article/lead-stories/20220209/ransomware-attack-less-disruptive-earlier-thought-ncu-says",
@@ -211,7 +201,6 @@
         "target": "Massy Jamaica Distribution Limited",
         "year": 2022,
         "type": "Ransomware",
-        "records": "~705,000",
         "source": {
             "Jamaica Gleaner": "https://jamaica-gleaner.com/article/esponsored/20221017/massys-ransomware-attack-exposes-consumers-and-companies",
             "Red Packet Security": "https://www.redpacketsecurity.com/lockbit-3-0-ransomware-victim-hdhopwood-com",
@@ -223,7 +212,6 @@
         "target": "JamCovid App",
         "year": 2021,
         "type": "Exposed Data",
-        "records": "~500,000",
         "source": {
             "Tech Crunch": "https://techcrunch.com/2021/02/26/amber-group-jamcovid-data-exposed"
         }
@@ -232,7 +220,6 @@
         "target": "JamCovid App",
         "year": 2021,
         "type": "Exposed Keys",
-        "records": "Unknown",
         "source": {
             "Tech Crunch": "https://techcrunch.com/2021/02/22/jamaica-amber-group-jamcovid-security-lapse",
             "Jamaica Gleaner": "https://jamaica-gleaner.com/article/news/20210222/another-alleged-jamcovid-security-flaw-uncovered",
@@ -248,7 +235,6 @@
         "target": "JamCovid App",
         "year": 2021,
         "type": "Exposed Data",
-        "records": "~425,000",
         "source": {
             "Tech Crunch": "https://techcrunch.com/2021/02/17/jamaica-immigration-travelers-data-exposed",
             "Jamaica Gleaner": "https://jamaica-gleaner.com/article/lead-stories/20210218/data-breach-blowback-jamcovid-exposure-treasure-trove-scammers-says",
@@ -261,7 +247,6 @@
         "target": "Digicel Group",
         "year": 2021,
         "type": "Ransomware",
-        "records": "Unknown",
         "source": {
             "Screenshot": "https://drive.google.com/file/d/16DGlP3pwBKE09Gr0rFf5iik5_hx6eIBP"
         }
@@ -270,7 +255,6 @@
         "target": "Jamaica Public Service Company",
         "year": 2020,
         "type": "Exposed Data",
-        "records": "Unknown",
         "source": {
             "Jamaica Gleaner": "https://jamaica-gleaner.com/article/lead-stories/20221023/left-dark"
         }
@@ -279,7 +263,6 @@
         "target": "Burger King Jamaica",
         "year": 2020,
         "type": "Ransomware",
-        "records": "Unknown",
         "source": {
             "Screenshot": "https://drive.google.com/file/d/16HC-fzqYMviJUTAhczHEkxYNzYzVinYh"
         }
@@ -288,7 +271,6 @@
         "target": "SchoolManagerJa",
         "year": 2017,
         "type": "Ransomware",
-        "records":"~14,000",
         "source": {
             "Jamaica Gleaner": "https://jamaica-gleaner.com/article/lead-stories/20170430/us5000-or-else-hackers-hijack-data-16-jamaican-schools-and-demand"
         }
@@ -296,8 +278,7 @@
     {   
         "target": "Office of the Director of Public Prosecutions",
         "year": 2013,
-        "type": "Hack",
-        "records": "Unknown",
+        "type": "Hacked",
         "source": {
             "Jamaica Gleaner": "https://jamaica-gleaner.com/power/42693"
         }
@@ -305,8 +286,7 @@
     {   
         "target": "Tax Administration of Jamaica",
         "year": 2013,
-        "type": "Hack",
-        "records": "Unknown",
+        "type": "Hacked",
         "source": {
             "Jamaica Gleaner": "https://jamaica-gleaner.com/gleaner/20120629/lead/lead5.html"
         }
@@ -314,8 +294,7 @@
     {
         "target": "Digicel Group",
         "year": 2013,
-        "type": "Hack",
-        "records": "Unknown",
+        "type": "Hacked",
         "source": {
             "Jamaica Gleaner": "https://jamaica-gleaner.com/gleaner/20130126/lead/lead1.html"
         }
@@ -323,8 +302,7 @@
     {
         "target": "Digicel Group",
         "year": 2009,
-        "type": "Hack",
-        "records": "Unknown",
+        "type": "Hacked",
         "source": {
             "Radio Jamaica News": "http://radiojamaicanewsonline.com/local/credit-scam-mastermind-denied-bail"
         }
