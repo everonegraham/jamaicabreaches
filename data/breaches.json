@@ -1,4 +1,13 @@
 [
+ {
+        "target": "The Insurance Company of the West Indies",
+        "year": 2024,
+        "type": "Ransomware",
+        "source": {
+            "Jamaica Gleaner": "https://jamaica-gleaner.com/article/news/20240828/icwi-issues-alert-clients-after-cyberattack",
+            "Tweet": "https://x.com/deicastor/status/1829534469923238036"
+        }   
+    },
     {
         "target": "First Heritage Co-operative Credit Union",
         "year": 2024,
