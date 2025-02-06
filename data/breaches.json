@@ -1,5 +1,14 @@
 [
     {
+        "target": "Biomedical Caledonia Medical Laboratory",
+        "year": 2025,
+        "type": "Ransomware",
+        "source": {
+            "Screenshot": "https://drive.google.com/file/d/1zOBaAcdnXGXqD8WBEmIUjWxPj6cUAsy9",
+            "Jamaica Gleaner": "https://jamaica-gleaner.com/article/news/20250205/biomedical-lab-enhances-cybersecurity-following-data-breach"
+        }   
+    },
+    {
         "target": "Island Grill",
         "year": 2024,
         "type": "Ransomware",
