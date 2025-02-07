@@ -1,5 +1,16 @@
 [
     {
+        "target": "Scotiabank Jamaica",
+        "year": 2025,
+        "type": "Fraud",
+        "source": {
+            "Press Release": "https://acrobat.adobe.com/id/urn:aaid:sc:EU:cb3977c0-4fc4-4e68-b7e0-105b973ff798",
+            "Instagram Post": "https://www.instagram.com/p/DFyJXUpS2Yq",
+            "Twitter Post": "https://x.com/ScotiabankJM/status/1887961792833536119",
+            "Jamaica Observer": "https://www.jamaicaobserver.com/2025/02/07/scotiabank-addresses-fraud-allegations"
+        }
+    },
+    {
         "target": "Derrimon Trading Co. Ltd.",
         "year": 2025,
         "type": "Ransomware",
@@ -16,8 +27,8 @@
         "source": {
             "Screenshot": "https://drive.google.com/file/d/1zOBaAcdnXGXqD8WBEmIUjWxPj6cUAsy9",
             "Our Today": "https://our.today/biomedical-labs-responds-to-cybersecurity-incident",
-            "Jamaica Gleaner": "https://jamaica-gleaner.com/article/news/20250205/biomedical-lab-enhances-cybersecurity-following-data-breach"  
-        }   
+            "Jamaica Gleaner": "https://jamaica-gleaner.com/article/news/20250205/biomedical-lab-enhances-cybersecurity-following-data-breach"
+        }
     },
     {
         "target": "Island Grill",
@@ -27,7 +38,7 @@
             "Twitter Post": "https://x.com/FalconFeedsio/status/1844309092430475680",
             "Screenshot (1)": "https://drive.google.com/file/d/10UBCAJFxBuPPXeeWHmZbBffY0IS1dwCj",
             "Screenshot (2)": "https://drive.google.com/file/d/1-4Kv7fbFQqPuSCWuI7M6uXgg7lICEOcO"
-        }   
+        }
     },
     {
         "target": "The Insurance Company of the West Indies",
@@ -36,7 +47,7 @@
         "source": {
             "Jamaica Gleaner": "https://jamaica-gleaner.com/article/news/20240828/icwi-issues-alert-clients-after-cyberattack",
             "Twitter Post": "https://x.com/deicastor/status/1829534469923238036"
-        }   
+        }
     },
     {
         "target": "First Heritage Co-operative Credit Union",
@@ -45,7 +56,7 @@
         "source": {
             "Jamaica Observer": "https://www.jamaicaobserver.com/2024/05/24/fhc-advises-members-high-alert-cyber-incident",
             "The Cyber Express": "https://thecyberexpress.com/fhc-cyberattack-alert"
-        }   
+        }
     },
     {
         "target": "Bureau of Standards Jamaica",
@@ -53,7 +64,7 @@
         "type": "Ransomware",
         "source": {
             "Jamaica Gleaner": "https://jamaica-gleaner.com/article/lead-stories/20240511/bsj-hit-cyberattack"
-        }   
+        }
     },
     {
         "target": "IronRock Insurance Company",
@@ -62,7 +73,7 @@
         "source": {
             "Jamaica Stock Exchange": "https://www.jamstockex.com/ironrock-insurance-co-ltd-roc-cyber-incident",
             "Company Notice": "https://drive.google.com/file/d/1Bf2MpqqIZ57gHSp_9u2rNQZQDamaurjd"
-        }   
+        }
     },
     {
         "target": "PetroJam",
@@ -70,8 +81,8 @@
         "type": "Ransomware",
         "source": {
             "Jamaica Gleaner": "https://jamaica-gleaner.com/article/news/20231219/petrojam-hacked-scale-unknown",
-            "Jamaica Star":"https://jamaica-star.com/article/news/20231219/petrojam-victim-cyber-incident"
-        }   
+            "Jamaica Star": "https://jamaica-star.com/article/news/20231219/petrojam-victim-cyber-incident"
+        }
     },
     {
         "target": "PriceSmart",
@@ -79,7 +90,7 @@
         "type": "Ransomware",
         "source": {
             "Screenshot": "https://drive.google.com/file/d/18F9e-0ciQ-blWpepQsePf3d5ZQ_u4YDX"
-        }   
+        }
     },
     {
         "target": "Courts",
@@ -87,16 +98,15 @@
         "type": "Hacked",
         "source": {
             "Screenshot": "https://drive.google.com/file/d/18Cmq1KSm96GT3xd_xHbj2lpSBv26oN0C"
-        }   
+        }
     },
-    
     {
         "target": "Applekings Ja",
         "year": 2023,
         "type": "Hacked",
         "source": {
             "Screenshot": "https://drive.google.com/file/d/11fkzPoUsuGfGDuFScr3LxDaylpmidgdX"
-        }   
+        }
     },
     {
         "target": "Derrimon Trading Co. Ltd.",
@@ -107,7 +117,7 @@
             "Screenshot": "https://drive.google.com/file/d/1cMZOaDPvBsOgaXzzQVTwIdV6_HC3HJoT",
             "Jamaica Gleaner": "https://jamaica-gleaner.com/article/news/20230912/derrimon-trading-strengthens-systems-following-cyber-breach",
             "Our Today": "https://our.today/derrimon-says-its-system-fully-restored-after-cyber-attack"
-        }   
+        }
     },
     {
         "target": "Jamaica Inn",
@@ -116,7 +126,7 @@
         "source": {
             "Screenshot (1)": "https://drive.google.com/file/d/1pZ_Y0ySHgKg3ZW5tCADiIeyASz1EhMOh",
             "Screenshot (2)": "https://drive.google.com/file/d/1P8-Bin2z_Tgrvd6WukCAMaxxvsMy1o96"
-        }   
+        }
     },
     {
         "target": "Financial Services Commission (FSC)",
@@ -124,14 +134,14 @@
         "type": "Ransomware",
         "source": {
             "Twitter Post (1)": "https://twitter.com/FSCJamaica/status/1699518209714426223",
-            "Press Release (1)":"https://drive.google.com/file/d/1BG_fGvhd8m7-hu2_PcA13XzxhAZAyXAY",
+            "Press Release (1)": "https://drive.google.com/file/d/1BG_fGvhd8m7-hu2_PcA13XzxhAZAyXAY",
             "Jamaica Gleaner": "https://jamaica-gleaner.com/article/news/20230906/cyber-attack-financial-services-commission",
             "Jamaica Observer": "https://www.jamaicaobserver.com/latest-news/fsc-reports-cyber-breach",
             "Jamaica Gleaner (2)": "https://jamaica-gleaner.com/article/lead-stories/20230911/disaster-fsc",
             "Screenshot": "https://drive.google.com/file/d/1Km-b9dpXTdSXXv66SsGV8Rabuf6BKWPL",
             "Twitter Post (2)": "https://x.com/FSCJamaica/status/1702540929712701746",
-            "Press Release (2)":"https://drive.google.com/file/d/1ZxkJv0TtQ-YAFaTgU6kebtb78QVjo1FN"
-        }   
+            "Press Release (2)": "https://drive.google.com/file/d/1ZxkJv0TtQ-YAFaTgU6kebtb78QVjo1FN"
+        }
     },
     {
         "target": "Kalilah Reynolds Media",
@@ -177,7 +187,6 @@
             "Our Today": "https://our.today/national-security-ministry-confirms-cyber-incident-with-jamaicaeye-website",
             "Irie FM": "https://www.iriefm.net/jamaicaeye-website-affected-by-cyber-attack"
         }
-        
     },
     {
         "target": "Mayberry Investments",
@@ -315,7 +324,7 @@
             "Jamaica Gleaner": "https://jamaica-gleaner.com/article/lead-stories/20170430/us5000-or-else-hackers-hijack-data-16-jamaican-schools-and-demand"
         }
     },
-    {   
+    {
         "target": "Office of the Director of Public Prosecutions",
         "year": 2013,
         "type": "Hacked",
@@ -323,7 +332,7 @@
             "Jamaica Gleaner": "https://jamaica-gleaner.com/power/42693"
         }
     },
-    {   
+    {
         "target": "Tax Administration of Jamaica",
         "year": 2013,
         "type": "Hacked",
