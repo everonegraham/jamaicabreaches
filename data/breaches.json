@@ -1,5 +1,14 @@
 [
     {
+        "target": "Derrimon Trading Co. Ltd.",
+        "year": 2025,
+        "type": "Ransomware",
+        "source": {
+            "Twitter Post": "https://x.com/FalconFeedsio/status/1886529029379080203",
+            "Screenshot": "https://drive.google.com/file/d/1OB6ayhbP7T_PuC4GK9pj-JrWW5pqc3YA"
+        }
+    },
+    {
         "target": "Biomedical Caledonia Medical Laboratory",
         "year": 2025,
         "type": "Ransomware",
