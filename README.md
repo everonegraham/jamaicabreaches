@@ -1,4 +1,6 @@
-## Wish to the contribute code to Jamaica Breaches?
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+## Getting Started
 
 First, run the development server:
 
@@ -6,31 +8,29 @@ First, run the development server:
 npm run dev
 # or
 yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-Make your changes and do a pull request.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Wish to the contribute docs to Jamaica Breaches?
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-Add and entry in the breaches.json file. This file is located in the `data/` directory. 
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-It should be in this format:
+## Learn More
 
-```
----
-{
-    name: Some Company
-    year: 20xx
-    type: Event (Hack etc)
-    records: Number of records affected
-    source: {
-      "source": "Link to source.",
-      "source (2)": "Link to the second source.",
-      "some other source": "Link to some other source."
-    }
-}
----
-```
-Ensure each entry is added by year, in asending order. 
+To learn more about Next.js, take a look at the following resources:
 
-Then do a pull request.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
