@@ -169,21 +169,74 @@ export function BreachesTable({ data }: DataTableProps) {
   }
 
   return (
-    <div className="space-y-4">
-      <div className="flex items-center justify-between">
+    <div className="space-y-6">
+      <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
         <Input
           placeholder="Filter targets..."
           value={(table.getColumn("target")?.getFilterValue() as string) ?? ""}
           onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
             table.getColumn("target")?.setFilterValue(event.target.value)
           }
-          className="max-w-sm focus-visible:ring-primary/20 dark:focus-visible:ring-primary/30 focus-visible:ring-offset-0"
+          className="w-full sm:max-w-sm focus-visible:ring-primary/20 dark:focus-visible:ring-primary/30 focus-visible:ring-offset-0"
         />
         <div className="text-sm font-medium text-muted-foreground dark:text-gray-300">
           Showing {table.getRowModel().rows.length} of {data.length} breaches
         </div>
       </div>
-      <div className="rounded-md border bg-background">
+
+      {/* Mobile Card View */}
+      <div className="sm:hidden space-y-3">
+        {table.getRowModel().rows.map((row) => (
+          <div key={row.id} className="p-4 rounded-lg border bg-background">
+            <div className="flex items-center gap-4">
+              <div className="flex-1">
+                <div className="font-medium">{String(row.getValue("target"))}</div>
+                <div className="flex items-center gap-3 text-sm text-muted-foreground mt-2">
+                  <div>{String(row.getValue("year"))}</div>
+                  <div>•</div>
+                  <div>{String(row.getValue("type"))}</div>
+                </div>
+              </div>
+              {row.original.source && Object.keys(row.original.source).length > 0 && (
+                <div className="flex-shrink-0">
+                  <Popover>
+                    <PopoverTrigger asChild>
+                      <Button
+                        variant="outline"
+                        size="icon"
+                        className="h-8 w-8 rounded-full hover:bg-muted hover:text-primary border-primary/20 dark:border-primary/30 dark:hover:bg-white/10"
+                      >
+                        <Link2 className="h-4 w-4" />
+                      </Button>
+                    </PopoverTrigger>
+                    <PopoverContent align="end" className="w-[200px] p-2 dark:bg-secondary/95">
+                      <div className="space-y-2">
+                        {Object.entries(row.original.source).map(([name, url]) => (
+                          url && (
+                            <a
+                              key={url}
+                              href={url}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="flex items-center gap-2 text-sm hover:text-primary group px-2 py-1.5 rounded-md hover:bg-muted/50 dark:hover:bg-white/10"
+                            >
+                              <Link2 className="h-3 w-3 opacity-70 group-hover:opacity-100" />
+                              <span className="group-hover:underline">{name}</span>
+                            </a>
+                          )
+                        ))}
+                      </div>
+                    </PopoverContent>
+                  </Popover>
+                </div>
+              )}
+            </div>
+          </div>
+        ))}
+      </div>
+
+      {/* Desktop Table View */}
+      <div className="hidden sm:block rounded-md border bg-background">
         <Table>
           <TableHeader>
             {table.getHeaderGroups().map((headerGroup) => (
@@ -228,12 +281,13 @@ export function BreachesTable({ data }: DataTableProps) {
           </TableBody>
         </Table>
       </div>
-      <div className="flex items-center justify-between">
-        <div className="text-sm text-muted-foreground dark:text-gray-300">
+
+      <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div className="text-sm text-muted-foreground dark:text-gray-300 order-2 sm:order-1">
           Page {table.getState().pagination.pageIndex + 1} of{" "}
           {table.getPageCount()}
         </div>
-        <div className="flex items-center space-x-2">
+        <div className="flex items-center space-x-2 order-1 sm:order-2">
           <Button
             variant="outline"
             size="sm"
@@ -241,8 +295,8 @@ export function BreachesTable({ data }: DataTableProps) {
             disabled={!table.getCanPreviousPage()}
             className="text-muted-foreground hover:bg-primary hover:text-primary-foreground dark:border-muted/40"
           >
-            <ChevronLeft className="mr-2 h-4 w-4" />
-            Previous
+            <ChevronLeft className="h-4 w-4" />
+            <span className="ml-2">Previous</span>
           </Button>
           <Button
             variant="outline"
@@ -251,8 +305,8 @@ export function BreachesTable({ data }: DataTableProps) {
             disabled={!table.getCanNextPage()}
             className="text-muted-foreground hover:bg-primary hover:text-primary-foreground dark:border-muted/40"
           >
-            Next
-            <ChevronRight className="ml-2 h-4 w-4" />
+            <span className="mr-2">Next</span>
+            <ChevronRight className="h-4 w-4" />
           </Button>
         </div>
       </div>
