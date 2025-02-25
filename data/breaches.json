@@ -1,5 +1,13 @@
 [
     {
+        "target": "Northern Caribbean University",
+        "year": 2025,
+        "type": "Ransomware",
+        "source": {
+            "Twitter Post": "https://x.com/DamionMitch/status/1894042659875909967"
+        }
+    },
+    {
         "target": "Scotiabank Jamaica",
         "year": 2025,
         "type": "Fraud",
