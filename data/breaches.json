@@ -1,4 +1,12 @@
 [
+{
+        "target": "Access Financial Services Limited",
+        "year": 2025,
+        "type": "Breach",
+        "source": {
+            "Jamaica Stock Exchange": "https://www.jamstockex.com/access-financial-services-limited-afs-notification-of-cybersecurity-incident"
+        }
+    },
     {
         "target": "Northern Caribbean University",
         "year": 2025,
