@@ -1,10 +1,20 @@
 [
     {
+        "target": "Gore Developments Limited",
+        "year": 2025,
+        "type": "Ransomware",
+        "source": {
+            "Twitter Post": "https://x.com/FalconFeedsio/status/1899512304066326624",
+            "Screenshot": "https://drive.google.com/file/d/1tYIf7dTuK8_mlgLMYCk4FEqmXOHBvFeW"
+        }
+    },
+    {
         "target": "Niche Financing Limited",
         "year": 2025,
         "type": "Breach",
         "source": {
-            "Instagram Ad": "https://drive.google.com/file/d/13FClltj5jeIYY0VirB2rntaJDZI9F8gO"
+            "Instagram Ad": "https://drive.google.com/file/d/13FClltj5jeIYY0VirB2rntaJDZI9F8gO",
+            "Jamaica Observer": "https://www.jamaicaobserver.com/2025/03/07/cyber-storm"
         }
     },
     {
@@ -12,7 +22,8 @@
         "year": 2025,
         "type": "Breach",
         "source": {
-            "Jamaica Stock Exchange": "https://www.jamstockex.com/access-financial-services-limited-afs-notification-of-cybersecurity-incident"
+            "Jamaica Stock Exchange": "https://www.jamstockex.com/access-financial-services-limited-afs-notification-of-cybersecurity-incident",
+            "Jamaica Observer": "https://www.jamaicaobserver.com/2025/03/07/cyber-storm"
         }
     },
     {
@@ -23,7 +34,7 @@
             "Twitter Post": "https://x.com/DamionMitch/status/1894042659875909967",
             "Jamaica Gleaner": "https://jamaica-gleaner.com/article/news/20250224/cyberattack-shuts-down-ncu-systems-students-warned-data-breach",
             "Nationwide News Network": "https://nationwideradiojm.com/ncu-hit-by-cyberattack-students-data-may-be-exposed",
-"Instagram Post": "https://www.instagram.com/p/DGeZgt1OVb0"
+            "Instagram Post": "https://www.instagram.com/p/DGeZgt1OVb0"
         }
     },
     {
