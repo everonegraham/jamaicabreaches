@@ -1,5 +1,13 @@
 [
     {
+        "target": "Office of the Services Commissions",
+        "year": 2025,
+        "type": "Hacked",
+        "source": {
+            "Screenshot": "https://drive.google.com/file/d/1-y8pjtD8hpqebAuYzgvGRiiovXq24Ll0"
+        }
+    },
+    {
         "target": "Gore Developments Limited",
         "year": 2025,
         "type": "Ransomware",
