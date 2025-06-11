@@ -1,5 +1,14 @@
 [
     {
+        "target": "D.O.S 2009 Ltd",
+        "year": 2025,
+        "type": "Ransomware",
+        "source": {
+            "Twitter Post": "https://x.com/FalconFeedsio/status/1921275676700610587",
+            "Screenshot": "https://pbs.twimg.com/media/Gqm-CFcXEAEoN4h?format=jpg&name=large"
+        }
+    },
+    {
         "target": "Office of the Services Commissions",
         "year": 2025,
         "type": "Hacked",
