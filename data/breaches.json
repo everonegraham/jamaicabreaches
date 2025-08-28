@@ -1,5 +1,14 @@
 [
     {
+        "target": "Office of the Registrar General",
+        "year": 2025,
+        "type": "Cyber-Attack*",
+        "source": {
+            "Jamaica Gleaner": "https://jamaica-gleaner.com/article/news/20250827/office-registrar-general-formerly-rgd-hit-cyber-attack",
+            "Jamaica Observer": "https://www.jamaicaobserver.com/2025/08/27/cyber-attack-office-registrar-general-contained-services-impacted-org"
+        }
+    },
+    {
         "target": "Office of the Services Commissions",
         "year": 2025,
         "type": "Hacked",
