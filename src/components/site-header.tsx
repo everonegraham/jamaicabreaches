@@ -2,9 +2,8 @@
 
 import { usePathname } from "next/navigation"
 import Link from "next/link"
-import { Github } from "lucide-react"
 import { ModeToggle } from "@/components/mode-toggle"
-import { XIcon } from "@/components/icons"
+import { XIcon, GithubIcon } from "@/components/icons"
 import { cn } from "@/lib/utils"
 
 export function SiteHeader() {
@@ -50,7 +49,7 @@ export function SiteHeader() {
               rel="noreferrer"
             >
               <div className="inline-flex h-8 w-8 sm:h-9 sm:w-9 items-center justify-center rounded-md bg-background text-sm font-medium transition-colors hover:bg-muted hover:text-primary">
-                <Github className="h-4 w-4 sm:h-5 sm:w-5" />
+                <GithubIcon className="h-4 w-4 sm:h-5 sm:w-5" />
                 <span className="sr-only">GitHub</span>
               </div>
             </Link>

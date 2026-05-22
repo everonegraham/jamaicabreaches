@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { Github } from "lucide-react"
+import { GithubIcon } from "@/components/icons"
 
 export function Hero() {
   return (
@@ -20,7 +20,7 @@ export function Hero() {
             rel="noreferrer"
             className="hero-button hero-button-primary inline-flex items-center gap-2"
           >
-            <Github className="h-5 w-5" />
+            <GithubIcon className="h-5 w-5" />
             Contribute
           </Link>
         </div>

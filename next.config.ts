@@ -1,12 +1,11 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  experimental: {
-    turbo: {
-      rules: {
-        '*.json': ['json']
-      }
-    }
-  }
-}
+import type { NextConfig } from "next";
 
-export default nextConfig
+const nextConfig: NextConfig = {
+  // Pin the workspace root so Next doesn't mis-infer it from a stray
+  // lockfile in a parent directory.
+  turbopack: {
+    root: import.meta.dirname,
+  },
+};
+
+export default nextConfig;

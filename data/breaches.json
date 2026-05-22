@@ -1,5 +1,41 @@
 [
     {
+        "target": "Casino Gaming Commission",
+        "year": 2026,
+        "type": "Ransomware",
+        "source": {
+            "Twitter Post": "https://x.com/FalconFeedsio/status/2054041141603959197",
+            "Screenshot": "https://drive.google.com/file/d/1_1MgsjXLS1J5vTfFh2SnUmNA24SeiTIs"
+        }
+    },
+    {
+        "target": "RJRGleaner Communications Group",
+        "year": 2026,
+        "type": "Ransomware",
+        "source": {
+            "Jamaica Gleaner": "https://jamaica-gleaner.com/article/news/20260504/rjrgleaner-responding-cybersecurity-incident-international-experts-engaged",
+            "DeXpose": "https://www.dexpose.io/lockbit-5-0-strikes-rjrgleaner-communications-group"
+        }
+    },
+    {
+        "target": "JOH Investments Limited",
+        "year": 2026,
+        "type": "Ransomware",
+        "source": {
+            "Twitter Post": "https://x.com/FalconFeedsio/status/2046343311703884026",
+            "Screenshot": "https://drive.google.com/file/d/1tP1Plxwg30fiUWQ7Avh0fQZm3i9u6mLW"
+        }
+    },
+    {
+        "target": "EXIM Bank Jamaica",
+        "year": 2026,
+        "type": "Ransomware",
+        "source": {
+            "Twitter Post": "https://x.com/Ransom_DB/status/2019851739797606460",
+            "Screenshot": "https://drive.google.com/file/d/1xJPFEOd-b7BSnzIyhmOZ1RZsrZpmxlnP"
+        }
+    },
+    {
         "target": "D.O.S 2009 Ltd",
         "year": 2025,
         "type": "Ransomware",
