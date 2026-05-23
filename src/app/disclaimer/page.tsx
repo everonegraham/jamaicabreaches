@@ -1,8 +1,22 @@
 import { Metadata } from "next"
+import { SITE_URL, SITE_NAME, OG_IMAGE } from "@/lib/site"
+
+const description =
+  "Important disclaimer about the information provided on Jamaica Breaches."
 
 export const metadata: Metadata = {
-  title: "Disclaimer - Jamaica Breaches",
-  description: "Important disclaimer about the information provided on Jamaica Breaches",
+  title: "Disclaimer",
+  description,
+  alternates: { canonical: "/disclaimer" },
+  openGraph: {
+    type: "website",
+    siteName: SITE_NAME,
+    locale: "en_US",
+    url: `${SITE_URL}/disclaimer`,
+    title: "Disclaimer · Jamaica Breaches",
+    description,
+    images: [OG_IMAGE],
+  },
 }
 
 export default function DisclaimerPage() {

@@ -7,8 +7,11 @@ export function Hero() {
   return (
     <section className="space-y-6 pb-4 pt-6 md:pb-6 md:pt-10 lg:pb-8 lg:pt-16">
       <div className="container flex max-w-[64rem] flex-col items-center gap-6 text-center">
-        <h1 className="font-heading text-4xl font-bold sm:text-5xl md:text-6xl lg:text-7xl heading-gradient animate-fade-up pb-2">
+        <p className="text-sm font-semibold uppercase tracking-widest text-primary animate-fade-up">
           The Jamaican Security Logbook
+        </p>
+        <h1 className="font-heading text-4xl font-bold sm:text-5xl md:text-6xl lg:text-7xl heading-gradient animate-fade-up pb-2">
+          Jamaica Data Breaches &amp; Cybersecurity Incidents
         </h1>
         <p className="max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8 animate-fade-up">
           Recording security breaches, data leaks, hacks and scams taking place in Jamaica.

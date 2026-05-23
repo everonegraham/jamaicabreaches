@@ -1,8 +1,22 @@
 import { Metadata } from "next"
+import { SITE_URL, SITE_NAME, OG_IMAGE } from "@/lib/site"
+
+const description =
+  "Learn more about Jamaica Breaches — keeping you informed about cybersecurity incidents, data breaches and scams affecting Jamaican organizations."
 
 export const metadata: Metadata = {
-  title: "About - Jamaica Breaches",
-  description: "Learn more about Jamaica Breaches - Keeping you informed about cybersecurity incidents in Jamaica",
+  title: "About",
+  description,
+  alternates: { canonical: "/about" },
+  openGraph: {
+    type: "website",
+    siteName: SITE_NAME,
+    locale: "en_US",
+    url: `${SITE_URL}/about`,
+    title: "About · Jamaica Breaches",
+    description,
+    images: [OG_IMAGE],
+  },
 }
 
 export default function AboutPage() {
