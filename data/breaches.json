@@ -13,6 +13,7 @@
         "year": 2026,
         "type": "Ransomware",
         "source": {
+            "Twitter Post": "https://x.com/FalconFeedsio/status/2052446340660199731",
             "Jamaica Gleaner": "https://jamaica-gleaner.com/article/news/20260504/rjrgleaner-responding-cybersecurity-incident-international-experts-engaged",
             "DeXpose": "https://www.dexpose.io/lockbit-5-0-strikes-rjrgleaner-communications-group"
         }
