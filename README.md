@@ -20,6 +20,23 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Analytics
+
+The site uses [Umami](https://umami.is) (self-hosted) for privacy-friendly analytics. The tracking script only loads when both environment variables are set, so local development is not tracked by default.
+
+To enable it, copy the template and fill in your values:
+
+```bash
+cp .env.example .env.local
+```
+
+```dotenv
+NEXT_PUBLIC_UMAMI_WEBSITE_ID=<your-website-id>
+NEXT_PUBLIC_UMAMI_URL=https://analytics.yourdomain.com/script.js
+```
+
+In production (e.g. Vercel), set the same two variables in the project's environment settings.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
