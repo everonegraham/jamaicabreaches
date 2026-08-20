@@ -1,5 +1,13 @@
 [
     {
+        "target": "Jamaica Stock Exchange (JSE)",
+        "year": 2026,
+        "type": "Data Breach",
+        "source": {
+            "Company Notice": "https://www.jamstockex.com/jamaica-stock-exchange-limited-jse-cybersecurity-incident/"
+        }
+    },
+    {
         "target": "Casino Gaming Commission",
         "year": 2026,
         "type": "Ransomware",
