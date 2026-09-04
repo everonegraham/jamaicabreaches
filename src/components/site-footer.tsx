@@ -5,7 +5,7 @@ import Link from "next/link"
 export function SiteFooter() {
   return (
     <footer className="border-t border-border/10 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="max-w-7xl mx-auto px-8 flex h-14 items-center justify-between">
+      <div className="max-w-7xl mx-auto px-4 sm:px-8 flex h-14 items-center justify-between">
         <p className="text-sm text-muted-foreground">
           © {new Date().getFullYear()}{" "}
           <Link 

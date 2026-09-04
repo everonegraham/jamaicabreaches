@@ -4,6 +4,7 @@ import { usePathname } from "next/navigation"
 import Link from "next/link"
 import { ModeToggle } from "@/components/mode-toggle"
 import { XIcon, GithubIcon } from "@/components/icons"
+import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 
 export function SiteHeader() {
@@ -11,8 +12,8 @@ export function SiteHeader() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="max-w-7xl mx-auto px-8 flex h-16 items-center justify-between">
-        <Link href="/" className="flex items-center space-x-2">
+      <div className="max-w-7xl mx-auto px-4 sm:px-8 flex h-16 items-center justify-between">
+        <Link href="/" className="flex items-center gap-2">
           <span className="inline-block font-bold">Jamaica Breaches</span>
         </Link>
 
@@ -43,26 +44,36 @@ export function SiteHeader() {
           </nav>
 
           <div className="flex items-center gap-2 sm:gap-3">
-            <Link
-              href="https://github.com/everonegraham/jamaicabreaches"
-              target="_blank"
-              rel="noreferrer"
+            <Button
+              variant="ghost"
+              size="icon"
+              nativeButton={false}
+              render={
+                <Link
+                  href="https://github.com/everonegraham/jamaicabreaches"
+                  target="_blank"
+                  rel="noreferrer"
+                />
+              }
             >
-              <div className="inline-flex h-8 w-8 sm:h-9 sm:w-9 items-center justify-center rounded-md bg-background text-sm font-medium transition-colors hover:bg-muted hover:text-primary">
-                <GithubIcon className="h-4 w-4 sm:h-5 sm:w-5" />
-                <span className="sr-only">GitHub</span>
-              </div>
-            </Link>
-            <Link
-              href="https://x.com/jamaicabreaches"
-              target="_blank"
-              rel="noreferrer"
+              <GithubIcon />
+              <span className="sr-only">GitHub</span>
+            </Button>
+            <Button
+              variant="ghost"
+              size="icon"
+              nativeButton={false}
+              render={
+                <Link
+                  href="https://x.com/jamaicabreaches"
+                  target="_blank"
+                  rel="noreferrer"
+                />
+              }
             >
-              <div className="inline-flex h-8 w-8 sm:h-9 sm:w-9 items-center justify-center rounded-md bg-background text-sm font-medium transition-colors hover:bg-muted hover:text-primary">
-                <XIcon className="h-3 w-3 sm:h-4 sm:w-4" />
-                <span className="sr-only">X (formerly Twitter)</span>
-              </div>
-            </Link>
+              <XIcon />
+              <span className="sr-only">X (formerly Twitter)</span>
+            </Button>
             <ModeToggle />
           </div>
         </div>

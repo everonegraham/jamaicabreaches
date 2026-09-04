@@ -10,6 +10,7 @@ import {
 } from "@/components/ui/table"
 import {
   ColumnDef,
+  FilterFn,
   flexRender,
   getCoreRowModel,
   useReactTable,
@@ -19,102 +20,77 @@ import {
   getFilteredRowModel,
   getPaginationRowModel,
 } from "@tanstack/react-table"
-import { useEffect, useState } from "react"
-import { ArrowUpDown, ChevronLeft, ChevronRight, Link2 } from "lucide-react"
+import { useMemo, useState } from "react"
+import { ArrowUpDown, ChevronLeft, ChevronRight } from "lucide-react"
 import { type Breach } from "@/types/breach"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import {
-  Popover,
-  PopoverContent,
-  PopoverTrigger,
-} from "@/components/ui/popover"
+  Select,
+  SelectContent,
+  SelectGroup,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select"
+import { SourceLinks } from "@/components/source-links"
+
+const ALL = "all"
+
+/** Exact match on the stringified cell value; `all` disables the filter. */
+const matchesExactly: FilterFn<Breach> = (row, columnId, filterValue) =>
+  filterValue === ALL || String(row.getValue(columnId)) === filterValue
 
 const columns: ColumnDef<Breach>[] = [
   {
     accessorKey: "target",
-    header: ({ column }) => {
-      return (
-        <Button
-          variant="ghost"
-          className="p-0 hover:bg-transparent hover:text-primary"
-          onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
-        >
-          Target
-          <ArrowUpDown className="ml-2 h-4 w-4" />
-        </Button>
-      )
-    },
+    header: ({ column }) => (
+      <Button
+        variant="ghost"
+        size="sm"
+        className="-ml-2.5"
+        onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
+      >
+        Target
+        <ArrowUpDown data-icon="inline-end" />
+      </Button>
+    ),
   },
   {
     accessorKey: "year",
-    header: ({ column }) => {
-      return (
-        <Button
-          variant="ghost"
-          className="p-0 hover:bg-transparent hover:text-primary"
-          onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
-        >
-          Year
-          <ArrowUpDown className="ml-2 h-4 w-4" />
-        </Button>
-      )
-    },
+    filterFn: matchesExactly,
+    header: ({ column }) => (
+      <Button
+        variant="ghost"
+        size="sm"
+        className="-ml-2.5"
+        onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
+      >
+        Year
+        <ArrowUpDown data-icon="inline-end" />
+      </Button>
+    ),
   },
   {
     accessorKey: "type",
-    header: ({ column }) => {
-      return (
-        <Button
-          variant="ghost"
-          className="p-0 hover:bg-transparent hover:text-primary"
-          onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
-        >
-          Type
-          <ArrowUpDown className="ml-2 h-4 w-4" />
-        </Button>
-      )
-    },
+    filterFn: matchesExactly,
+    header: ({ column }) => (
+      <Button
+        variant="ghost"
+        size="sm"
+        className="-ml-2.5"
+        onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
+      >
+        Type
+        <ArrowUpDown data-icon="inline-end" />
+      </Button>
+    ),
   },
   {
     accessorKey: "source",
     header: "Source",
-    cell: ({ row }) => {
-      const sources = row.original.source
-      if (!sources || Object.keys(sources).length === 0) return null
-      
-      return (
-        <Popover>
-          <PopoverTrigger asChild>
-            <Button
-              variant="outline"
-              size="icon"
-              className="h-8 w-8 rounded-full hover:bg-muted hover:text-primary border-primary/20 dark:border-primary/30 dark:hover:bg-white/10"
-            >
-              <Link2 className="h-4 w-4" />
-            </Button>
-          </PopoverTrigger>
-          <PopoverContent align="end" className="w-[200px] p-2 dark:bg-secondary/95">
-            <div className="space-y-2">
-              {Object.entries(sources).map(([name, url]) => (
-                url && (
-                  <a
-                    key={url}
-                    href={url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-2 text-sm hover:text-primary group px-2 py-1.5 rounded-md hover:bg-muted/50 dark:hover:bg-white/10"
-                  >
-                    <Link2 className="h-3 w-3 opacity-70 group-hover:opacity-100" />
-                    <span className="group-hover:underline">{name}</span>
-                  </a>
-                )
-              ))}
-            </div>
-          </PopoverContent>
-        </Popover>
-      )
-    },
+    enableSorting: false,
+    cell: ({ row }) => <SourceLinks sources={row.original.source} />,
   },
 ]
 
@@ -123,18 +99,34 @@ interface DataTableProps {
 }
 
 export function BreachesTable({ data }: DataTableProps) {
-  const [mounted, setMounted] = useState(false)
-  const [sorting, setSorting] = useState<SortingState>([])
+  const [sorting, setSorting] = useState<SortingState>([
+    { id: "year", desc: true },
+  ])
   const [columnFilters, setColumnFilters] = useState<ColumnFiltersState>([])
   const [pagination, setPagination] = useState({
     pageIndex: 0,
     pageSize: 10,
   })
 
-  useEffect(() => {
-    setSorting([{ id: "year", desc: true }])
-    setMounted(true)
-  }, [])
+  const typeOptions = useMemo(
+    () => [
+      { label: "All types", value: ALL },
+      ...Array.from(new Set(data.map((breach) => breach.type)))
+        .sort((a, b) => a.localeCompare(b))
+        .map((type) => ({ label: type, value: type })),
+    ],
+    [data]
+  )
+
+  const yearOptions = useMemo(
+    () => [
+      { label: "All years", value: ALL },
+      ...Array.from(new Set(data.map((breach) => breach.year)))
+        .sort((a, b) => b - a)
+        .map((year) => ({ label: String(year), value: String(year) })),
+    ],
+    [data]
+  )
 
   const table = useReactTable({
     data,
@@ -151,92 +143,107 @@ export function BreachesTable({ data }: DataTableProps) {
       columnFilters,
       pagination,
     },
-    initialState: {
-      pagination: {
-        pageSize: 10,
-      },
-    },
   })
 
-  // Return a loading state or null during SSR
-  if (typeof window === 'undefined') {
-    return null;
-  }
+  const filteredCount = table.getFilteredRowModel().rows.length
 
-  // Return null while client-side initialization is happening
-  if (!mounted) {
-    return null;
+  /** Reset to the first page whenever a filter narrows the result set. */
+  const setFilter = (columnId: string, value: string) => {
+    table.getColumn(columnId)?.setFilterValue(value)
+    table.setPageIndex(0)
   }
 
   return (
-    <div className="space-y-6">
-      <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-        <Input
-          placeholder="Filter targets..."
-          value={(table.getColumn("target")?.getFilterValue() as string) ?? ""}
-          onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
-            table.getColumn("target")?.setFilterValue(event.target.value)
-          }
-          className="w-full sm:max-w-sm focus-visible:ring-primary/20 dark:focus-visible:ring-primary/30 focus-visible:ring-offset-0"
-        />
-        <div className="text-sm font-medium text-muted-foreground dark:text-gray-300">
-          Showing {table.getRowModel().rows.length} of {data.length} breaches
+    <div className="flex flex-col gap-6">
+      <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+        <div className="flex flex-col gap-2 sm:flex-row sm:items-center">
+          <Input
+            placeholder="Filter targets..."
+            value={(table.getColumn("target")?.getFilterValue() as string) ?? ""}
+            onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
+              setFilter("target", event.target.value)
+            }
+            className="w-full sm:w-64"
+          />
+          <div className="flex gap-2">
+            <Select
+              items={typeOptions}
+              value={
+                (table.getColumn("type")?.getFilterValue() as string) ?? ALL
+              }
+              onValueChange={(value) => setFilter("type", value as string)}
+            >
+              <SelectTrigger aria-label="Filter by type" className="w-full sm:w-44">
+                <SelectValue />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectGroup>
+                  {typeOptions.map((option) => (
+                    <SelectItem key={option.value} value={option.value}>
+                      {option.label}
+                    </SelectItem>
+                  ))}
+                </SelectGroup>
+              </SelectContent>
+            </Select>
+            <Select
+              items={yearOptions}
+              value={
+                (table.getColumn("year")?.getFilterValue() as string) ?? ALL
+              }
+              onValueChange={(value) => setFilter("year", value as string)}
+            >
+              <SelectTrigger aria-label="Filter by year" className="w-full sm:w-32">
+                <SelectValue />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectGroup>
+                  {yearOptions.map((option) => (
+                    <SelectItem key={option.value} value={option.value}>
+                      {option.label}
+                    </SelectItem>
+                  ))}
+                </SelectGroup>
+              </SelectContent>
+            </Select>
+          </div>
+        </div>
+        <div className="text-sm font-medium text-muted-foreground">
+          Showing {filteredCount} of {data.length} breaches
         </div>
       </div>
 
-      {/* Mobile Card View */}
-      <div className="sm:hidden space-y-3">
-        {table.getRowModel().rows.map((row) => (
-          <div key={row.id} className="p-4 rounded-lg border bg-background">
-            <div className="flex items-center gap-4">
-              <div className="flex-1">
-                <div className="font-medium">{String(row.getValue("target"))}</div>
-                <div className="flex items-center gap-3 text-sm text-muted-foreground mt-2">
-                  <div>{String(row.getValue("year"))}</div>
-                  <div>•</div>
-                  <div>{String(row.getValue("type"))}</div>
+      {/* Mobile card view. */}
+      <div className="flex flex-col gap-3 sm:hidden">
+        {table.getRowModel().rows.length ? (
+          table.getRowModel().rows.map((row) => (
+            <div key={row.id} className="rounded-lg border bg-background p-4">
+              <div className="flex items-center gap-4">
+                <div className="flex-1">
+                  <div className="font-medium">
+                    {String(row.getValue("target"))}
+                  </div>
+                  <div className="mt-2 flex items-center gap-3 text-sm text-muted-foreground">
+                    <div>{String(row.getValue("year"))}</div>
+                    <div>•</div>
+                    <div>{String(row.getValue("type"))}</div>
+                  </div>
+                </div>
+                <div className="shrink-0">
+                  <SourceLinks sources={row.original.source} />
                 </div>
               </div>
-              {row.original.source && Object.keys(row.original.source).length > 0 && (
-                <div className="flex-shrink-0">
-                  <Popover>
-                    <PopoverTrigger asChild>
-                      <Button
-                        variant="outline"
-                        size="icon"
-                        className="h-8 w-8 rounded-full hover:bg-muted hover:text-primary border-primary/20 dark:border-primary/30 dark:hover:bg-white/10"
-                      >
-                        <Link2 className="h-4 w-4" />
-                      </Button>
-                    </PopoverTrigger>
-                    <PopoverContent align="end" className="w-[200px] p-2 dark:bg-secondary/95">
-                      <div className="space-y-2">
-                        {Object.entries(row.original.source).map(([name, url]) => (
-                          url && (
-                            <a
-                              key={url}
-                              href={url}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="flex items-center gap-2 text-sm hover:text-primary group px-2 py-1.5 rounded-md hover:bg-muted/50 dark:hover:bg-white/10"
-                            >
-                              <Link2 className="h-3 w-3 opacity-70 group-hover:opacity-100" />
-                              <span className="group-hover:underline">{name}</span>
-                            </a>
-                          )
-                        ))}
-                      </div>
-                    </PopoverContent>
-                  </Popover>
-                </div>
-              )}
             </div>
+          ))
+        ) : (
+          <div className="rounded-lg border bg-background p-4 text-center text-sm text-muted-foreground">
+            No results.
           </div>
-        ))}
+        )}
       </div>
 
-      {/* Desktop Table View */}
-      <div className="hidden sm:block rounded-md border bg-background">
+      {/* Desktop table view. */}
+      <div className="hidden rounded-md border bg-background sm:block">
         <Table>
           <TableHeader>
             {table.getHeaderGroups().map((headerGroup) => (
@@ -257,10 +264,7 @@ export function BreachesTable({ data }: DataTableProps) {
           <TableBody>
             {table.getRowModel().rows?.length ? (
               table.getRowModel().rows.map((row) => (
-                <TableRow
-                  key={row.id}
-                  data-state={row.getIsSelected() && "selected"}
-                >
+                <TableRow key={row.id}>
                   {row.getVisibleCells().map((cell) => (
                     <TableCell key={cell.id}>
                       {flexRender(cell.column.columnDef.cell, cell.getContext())}
@@ -270,10 +274,7 @@ export function BreachesTable({ data }: DataTableProps) {
               ))
             ) : (
               <TableRow>
-                <TableCell
-                  colSpan={columns.length}
-                  className="h-24 text-center"
-                >
+                <TableCell colSpan={columns.length} className="h-24 text-center">
                   No results.
                 </TableCell>
               </TableRow>
@@ -282,34 +283,30 @@ export function BreachesTable({ data }: DataTableProps) {
         </Table>
       </div>
 
-      <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
-        <div className="text-sm text-muted-foreground dark:text-gray-300 order-2 sm:order-1">
+      <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
+        <div className="order-2 text-sm text-muted-foreground sm:order-1">
           Page {table.getState().pagination.pageIndex + 1} of{" "}
-          {table.getPageCount()}
+          {Math.max(table.getPageCount(), 1)}
         </div>
-        <div className="flex items-center space-x-2 order-1 sm:order-2">
+        <div className="order-1 flex items-center gap-2 sm:order-2">
           <Button
             variant="outline"
-            size="sm"
             onClick={() => table.previousPage()}
             disabled={!table.getCanPreviousPage()}
-            className="text-muted-foreground hover:bg-primary hover:text-primary-foreground dark:border-muted/40"
           >
-            <ChevronLeft className="h-4 w-4" />
-            <span className="ml-2">Previous</span>
+            <ChevronLeft data-icon="inline-start" />
+            Previous
           </Button>
           <Button
             variant="outline"
-            size="sm"
             onClick={() => table.nextPage()}
             disabled={!table.getCanNextPage()}
-            className="text-muted-foreground hover:bg-primary hover:text-primary-foreground dark:border-muted/40"
           >
-            <span className="mr-2">Next</span>
-            <ChevronRight className="h-4 w-4" />
+            Next
+            <ChevronRight data-icon="inline-end" />
           </Button>
         </div>
       </div>
     </div>
   )
-} 
+}
