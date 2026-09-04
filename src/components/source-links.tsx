@@ -24,7 +24,11 @@ export function SourceLinks({ sources }: { sources: Breach["source"] }) {
       <PopoverTrigger
         aria-label="View sources"
         render={
-          <Button variant="outline" size="icon-sm" className="rounded-full" />
+          <Button
+            variant="outline"
+            size="icon-sm"
+            className="transition-colors duration-200 hover:border-primary/50 hover:bg-primary/10 hover:text-brand aria-expanded:border-primary/50 aria-expanded:bg-primary/10 aria-expanded:text-brand"
+          />
         }
       >
         <Link2 />
@@ -36,9 +40,9 @@ export function SourceLinks({ sources }: { sources: Breach["source"] }) {
             href={url}
             target="_blank"
             rel="noopener noreferrer"
-            className="group flex items-center gap-2 rounded-md px-2 py-1.5 hover:bg-muted"
+            className="group flex items-center gap-2 rounded-md px-2 py-1.5 transition-colors duration-200 hover:bg-primary/10 hover:text-brand"
           >
-            <Link2 className="size-3 opacity-70 group-hover:opacity-100" />
+            <Link2 className="size-3 opacity-70 transition-opacity group-hover:opacity-100" />
             <span className="group-hover:underline">{name}</span>
           </a>
         ))}

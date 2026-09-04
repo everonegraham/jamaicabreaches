@@ -38,13 +38,9 @@ export default async function Home() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(datasetJsonLd) }}
       />
-      <div className="min-h-screen">
-        <Hero />
-        <div className="max-w-7xl mx-auto px-8 mb-16">
-          <div className="glass-card p-6">
-            <BreachesTable data={breaches} />
-          </div>
-        </div>
+      <Hero />
+      <div className="mx-auto w-full max-w-4xl px-4 pb-20 sm:px-6 lg:px-8">
+        <BreachesTable data={breaches} />
       </div>
     </>
   )

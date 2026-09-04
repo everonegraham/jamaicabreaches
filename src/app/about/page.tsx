@@ -2,7 +2,7 @@ import { Metadata } from "next"
 import { SITE_URL, SITE_NAME, OG_IMAGE } from "@/lib/site"
 
 const description =
-  "Learn more about Jamaica Breaches — keeping you informed about cybersecurity incidents, data breaches and scams affecting Jamaican organizations."
+  "Learn more about Jamaica Breaches, keeping you informed about cybersecurity incidents, data breaches and scams affecting Jamaican organizations."
 
 export const metadata: Metadata = {
   title: "About",
@@ -23,9 +23,18 @@ export default function AboutPage() {
   return (
     <div className="max-w-7xl mx-auto px-8 py-12">
       <div className="space-y-6">
-        <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">About Jamaica Breaches</h1>
+        <p className="animate-fade-up text-xs font-semibold tracking-[0.18em] text-brand uppercase">
+          The record
+        </p>
+        <h1
+          className="animate-fade-up text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl"
+          style={{ animationDelay: "90ms" }}
+        >About Jamaica Breaches</h1>
         <div className="prose dark:prose-invert max-w-none">
-          <div className="bg-muted/50 border rounded-lg p-6 space-y-4">
+          <div
+            className="animate-fade-up space-y-4 rounded-lg border bg-muted/50 p-6"
+            style={{ animationDelay: "180ms" }}
+          >
             <p className="leading-7 text-muted-foreground">
               Jamaica Breaches aims to inform and empower individuals and businesses about the latest cybersecurity breaches, 
               data leaks, hacks and scams taking place in Jamaica. We do this this by logging some information about these events, 

@@ -23,9 +23,18 @@ export default function DisclaimerPage() {
   return (
     <div className="max-w-7xl mx-auto px-8 py-12">
       <div className="space-y-6">
-        <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Disclaimer</h1>
+        <p className="animate-fade-up text-xs font-semibold tracking-[0.18em] text-brand uppercase">
+          Read this first
+        </p>
+        <h1
+          className="animate-fade-up text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl"
+          style={{ animationDelay: "90ms" }}
+        >Disclaimer</h1>
         <div className="prose dark:prose-invert max-w-none">
-          <div className="bg-muted/50 border rounded-lg p-6 space-y-4">
+          <div
+            className="animate-fade-up space-y-4 rounded-lg border bg-muted/50 p-6"
+            style={{ animationDelay: "180ms" }}
+          >
             <p className="leading-7 text-muted-foreground">
               Please be aware that the information provided on this website regarding cybersecurity breaches, 
               data leaks, hacks and scams at other companies are based on publicly available data and may not 

@@ -6,10 +6,13 @@
 
 @theme inline {
   --font-heading: var(--font-sans);
-  --color-brand-accent: var(--brand-accent);
-  --animate-fade-up: fade-up 0.5s ease-out;
-  --animate-fade-in: fade-in 0.3s ease-out;
   --font-sans: var(--font-sans);
+  /* Entrances share one easing so staggered elements feel like one movement. */
+  --animate-fade-up: fade-up 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+  --animate-fade-in: fade-in 0.5s ease-out both;
+  --animate-sweep-in: sweep-in 0.9s cubic-bezier(0.16, 1, 0.3, 1) both;
+  --animate-glow-drift: glow-drift 14s ease-in-out infinite;
+  --color-brand: var(--brand);
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
@@ -51,14 +54,12 @@
 }
 
 :root {
-  --background: oklch(1 0 0);
+  --background: oklch(0.985 0 0);
   --foreground: oklch(0.145 0 0);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
   --secondary: oklch(0.97 0 0);
   --secondary-foreground: oklch(0.205 0 0);
   --muted: oklch(0.97 0 0);
@@ -68,7 +69,6 @@
   --destructive: oklch(0.577 0.245 27.325);
   --border: oklch(0.922 0 0);
   --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
   --chart-1: oklch(0.87 0 0);
   --chart-2: oklch(0.556 0 0);
   --chart-3: oklch(0.439 0 0);
@@ -83,10 +83,14 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
-  /* Brand: JamaicaBreaches green. */
+  /* Brand: JamaicaBreaches green, the page's single accent.
+     --primary paints surfaces (buttons, dots, bars, glows) and needs no contrast
+     against the page; --brand is the same hue darkened until green *text* and
+     icons clear 4.5:1 on --background, which --primary does not in light mode. */
   --primary: oklch(0.773 0.153 163.2);
   --primary-foreground: oklch(0.205 0 0);
-  --brand-accent: oklch(0.711 0.166 22.2);
+  --brand: oklch(0.52 0.12 163.2);
+  --ring: oklch(0.65 0.13 163.2);
 }
 
 .dark {
@@ -96,8 +100,6 @@
   --card-foreground: oklch(0.985 0 0);
   --popover: oklch(0.205 0 0);
   --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.922 0 0);
-  --primary-foreground: oklch(0.205 0 0);
   --secondary: oklch(0.269 0 0);
   --secondary-foreground: oklch(0.985 0 0);
   --muted: oklch(0.269 0 0);
@@ -107,7 +109,6 @@
   --destructive: oklch(0.704 0.191 22.216);
   --border: oklch(1 0 0 / 10%);
   --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.556 0 0);
   --chart-1: oklch(0.87 0 0);
   --chart-2: oklch(0.556 0 0);
   --chart-3: oklch(0.439 0 0);
@@ -121,16 +122,18 @@
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.556 0 0);
-  /* Brand: JamaicaBreaches green. */
+  /* On a near-black page the surface green is already legible as text, so
+     --brand only lifts it slightly rather than darkening it. */
   --primary: oklch(0.773 0.153 163.2);
   --primary-foreground: oklch(0.205 0 0);
-  --brand-accent: oklch(0.711 0.166 22.2);
+  --brand: oklch(0.82 0.14 163.2);
+  --ring: oklch(0.7 0.13 163.2);
 }
 
 @keyframes fade-up {
   from {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(16px);
   }
   to {
     opacity: 1;
@@ -144,6 +147,31 @@
   }
   to {
     opacity: 1;
+  }
+}
+
+/* Hairline rules draw themselves out from the centre. */
+@keyframes sweep-in {
+  from {
+    opacity: 0;
+    transform: scaleX(0);
+  }
+  to {
+    opacity: 1;
+    transform: scaleX(1);
+  }
+}
+
+/* Slow ambient breathing for the hero glow — long enough to read as light, not motion. */
+@keyframes glow-drift {
+  0%,
+  100% {
+    opacity: 0.75;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.08);
   }
 }
 
@@ -169,37 +197,47 @@
   body {
     @apply bg-background text-foreground antialiased;
   }
+
+  ::selection {
+    background-color: color-mix(in oklch, var(--primary) 30%, transparent);
+  }
 }
 
 @layer components {
-  .hero-button {
-    @apply transform rounded-lg px-6 py-3 font-medium transition-all duration-200
-           hover:scale-105 focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none;
-  }
-
-  .hero-button-primary {
-    @apply bg-primary text-primary-foreground hover:bg-primary/80;
-  }
-
-  .hero-button-secondary {
-    @apply border border-border bg-background text-foreground hover:bg-muted;
-  }
-
   .section-padding {
     @apply px-4 py-20 sm:px-6 lg:px-8;
   }
 
-  .glass-card {
-    @apply rounded-lg border border-border bg-card/70 shadow-lg backdrop-blur-md
-           transition-all duration-300 hover:shadow-xl dark:bg-card/40;
+  /* The brand green as a light source behind the hero. Sized so it has fully
+     faded before every edge of its box — a blurred element instead would be
+     cut off by the hero's overflow and read as a smudge under the header. */
+  .hero-glow {
+    background: radial-gradient(
+      60% 55% at 50% 45%,
+      color-mix(in oklch, var(--primary) 20%, transparent) 0%,
+      transparent 72%
+    );
   }
 
-  .heading-gradient {
-    @apply bg-clip-text text-transparent;
-    background-image: linear-gradient(
-      to right,
-      var(--primary),
-      var(--brand-accent)
+  .dark .hero-glow {
+    background: radial-gradient(
+      60% 55% at 50% 45%,
+      color-mix(in oklch, var(--primary) 26%, transparent) 0%,
+      transparent 72%
     );
+  }
+}
+
+/* Motion here is decorative throughout: entrances, the ambient glow, the live
+   dot. Collapse all of it to its end state when the viewer asks for less. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-delay: 0ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
 }
