@@ -1,5 +1,18 @@
 [
     {
+        "target": "JETS Limited (MultiLink)",
+        "year": 2026,
+        "type": "Data Breach",
+        "source": {
+            "Press Release": "https://boj.org.jm/bank-of-jamaica-statement-on-cyber-incident-at-jets-limited/",
+            "Jamaica Observer": "https://www.jamaicaobserver.com/2026/10/23/cyberattack-jets-exposes-customer-information-multilink-ach-networks-unaffected/",
+            "Jamaica Gleaner": "https://jamaica-gleaner.com/article/news/20261024/jets-limited-reports-data-breach-says-core-payment-networks-unaffected",
+            "Irie FM": "https://iriefm.net/boj-assures-public-multilink-and-ach-networks-remain-operational-after-jets-cyber-incident/",
+            "Instagram Post 1": "https://www.instagram.com/p/De138R1oOcb",
+            "Instagram Post 2": "https://www.instagram.com/p/De2lZHwpjIh"
+        }
+    },
+    {
         "target": "EdgeChem Jamaica Limited",
         "year": 2026,
         "type": "Ransomware",
