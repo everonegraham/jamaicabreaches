@@ -4,7 +4,7 @@
         "year": 2026,
         "type": "Data Breach",
         "source": {
-            "Press Release": "https://boj.org.jm/bank-of-jamaica-statement-on-cyber-incident-at-jets-limited/",
+            "BOJ Statement": "https://boj.org.jm/bank-of-jamaica-statement-on-cyber-incident-at-jets-limited/",
             "Jamaica Observer": "https://www.jamaicaobserver.com/2026/10/23/cyberattack-jets-exposes-customer-information-multilink-ach-networks-unaffected/",
             "Jamaica Gleaner": "https://jamaica-gleaner.com/article/news/20261024/jets-limited-reports-data-breach-says-core-payment-networks-unaffected",
             "Irie FM": "https://iriefm.net/boj-assures-public-multilink-and-ach-networks-remain-operational-after-jets-cyber-incident/",
